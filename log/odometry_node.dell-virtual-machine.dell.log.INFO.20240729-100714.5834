@@ -1,0 +1,1626 @@
+Log file created at: 2024/07/29 10:07:14
+Running on machine: dell-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0729 10:07:14.326264  5834 parameter_struct.h:117] [ExtrinsicParam::Init] input yaml node has not parameters of Extrinsics struct. Return without Initialziation.
+I0729 10:07:14.391006  5834 msg_manager.cpp:168] LoadBag /home/dell/r3live_opensource_bag/degenerate_seq_02.bag start at 0 with duration 101.881
+I0729 10:07:14.392030  5834 odometry_manager.cpp:138] 
+I0729 10:07:14.393071  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0492423
+I0729 10:07:14.411051  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.049
+I0729 10:07:14.438112  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0482256
+I0729 10:07:14.457109  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0491903
+I0729 10:07:14.474678  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0474043
+I0729 10:07:14.498653  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0483139
+I0729 10:07:14.517355  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0488923
+I0729 10:07:14.538087  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0481212
+I0729 10:07:14.558393  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0496285
+I0729 10:07:14.580116  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0508835
+I0729 10:07:14.601500  5834 imu_initializer.cpp:140] [InertialInitializer] first imu time : 1.62951e+09
+I0729 10:07:14.601543  5834 imu_initializer.cpp:141] [InertialInitializer] imu_datas_ : 206
+I0729 10:07:14.601544  5834 imu_initializer.cpp:142] [InertialInitializer] imu_cache : 206
+I0729 10:07:14.601547  5834 imu_initializer.cpp:143] [InertialInitializer] Accel bias : 00.00335229 -0.00225915 0-0.0668819
+I0729 10:07:14.601554  5834 imu_initializer.cpp:144] [InertialInitializer] Gyro bias : 0000.0016407 000.00037041 -0.000396276
+I0729 10:07:14.601558  5834 imu_initializer.cpp:145] [InertialInitializer] gravity in I0 : -0.490806 000.33076 009.79213
+I0729 10:07:14.601569  5834 trajectory_manager.cpp:108] [debug numKnots] 4
+I0729 10:07:14.603036  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0502033
+I0729 10:07:14.621754  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.05182
+I0729 10:07:14.633276  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:14.639122  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0491529
+I0729 10:07:14.654697  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:14.654712  5834 odometry_manager.cpp:553] [aver_r_first] 0.00124856 | [aver_a_first] 9.74255
+I0729 10:07:14.654719  5834 odometry_manager.cpp:554] [var_r_first] 0.0156563 | [var_a_first] 0.374926
+I0729 10:07:14.654721  5834 odometry_manager.h:77] [acce_norm] 0.0674482
+I0729 10:07:14.654723  5834 odometry_manager.h:95] [gyro_norm] 0.00124856
+I0729 10:07:14.654724  5834 odometry_manager.cpp:560] [cp_add_num_first] 1
+I0729 10:07:14.654726  5834 odometry_manager.cpp:564] [extend_step_first] 100000000
+I0729 10:07:14.654727  5834 odometry_manager.cpp:602] [aver_r_second] 0.00192583 | [aver_a_second] 9.73433
+I0729 10:07:14.654729  5834 odometry_manager.cpp:603] [var_r_second] 0.0146919 | [var_a_second] 0.342311
+I0729 10:07:14.654731  5834 odometry_manager.h:77] [acce_norm] 0.0756733
+I0729 10:07:14.654732  5834 odometry_manager.h:95] [gyro_norm] 0.00192583
+I0729 10:07:14.654733  5834 odometry_manager.cpp:609] [cp_add_num_second] 1
+I0729 10:07:14.654735  5834 odometry_manager.cpp:613] [extend_step_second] 100000000
+I0729 10:07:14.662441  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0495572
+I0729 10:07:14.676427  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:14.676447  5834 odometry_manager.cpp:701] [aver_r_new] 0.00187037 | [aver_a_new] 9.74319
+I0729 10:07:14.676458  5834 odometry_manager.cpp:702] [var_r_new] 0.0143228 | [var_a_new] 0.348296
+I0729 10:07:14.676460  5834 odometry_manager.h:77] [acce_norm] 0.0668064
+I0729 10:07:14.676462  5834 odometry_manager.h:95] [gyro_norm] 0.00187037
+I0729 10:07:14.676463  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:14.676465  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:14.676466  5834 se3_spline.h:669] [cur_idx] 4
+I0729 10:07:14.676470  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:14.676595  5834 msg_manager.h:94] [surf | corn | raw | max] 0.129996 0.0917192 0.129996 0.13
+I0729 10:07:14.676600  5834 odometry_manager.cpp:289] Process 2 scans in [0, 0.13]
+I0729 10:07:14.677112  5834 trajectory_manager.cpp:260] [max_time_ns] 130000000
+I0729 10:07:14.677115  5834 trajectory_manager.cpp:261] [numKnots aft extension] 5
+I0729 10:07:14.677117  5834 trajectory_manager.cpp:265] [last_bias_time] 30000000 [cur_bias_time] 130000000
+I0729 10:07:14.677378  5834 trajectory_manager.cpp:312] 1 TrajInitSolver Ceres Solver Report: Iterations: 2, Initial cost: 2.074177e+03, Final cost: 1.987249e+03, Termination: CONVERGENCE
+I0729 10:07:14.677383  5834 trajectory_manager.cpp:313] 1 TrajInit Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.677913  5834 lidar_handler.cpp:300] [first_lidar time_max] 0.13
+I0729 10:07:14.678903  5834 lidar_handler.cpp:441] [keysize] 1
+I0729 10:07:14.679397  5834 lidar_handler.cpp:506] [feature_map_ds] surface cloud map : 1107; cornor cloud map: 0; feature map time : [0, 0].
+I0729 10:07:14.679838  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:14.679840  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:14.681269  5834 lidar_handler.cpp:775] point correspondence: 1109; corner/surfel 0/1109
+I0729 10:07:14.681341  5834 lidar_handler.cpp:183] point correspondence : 1109; point correspondence_ds : 555
+I0729 10:07:14.681344  5834 trajectory_manager.cpp:332] [point_corrs size] 555
+I0729 10:07:14.681345  5834 trajectory_manager.cpp:333] [opt_domain]: [0.03, 0.13)
+I0729 10:07:14.683086  5834 trajectory_manager.cpp:459] [t_opt] 1.47708
+I0729 10:07:14.683094  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 6.911623e+04, Final cost: 6.894599e+04, Termination: CONVERGENCE
+I0729 10:07:14.683096  5834 trajectory_manager.cpp:461] 1 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.683097  5834 trajectory_manager.cpp:468] [gyro_bias_new] -2.94149e-10 -2.04611e-09 1.72075e-10
+I0729 10:07:14.683100  5834 trajectory_manager.cpp:471] [acce_bias_new] -1.88633e-09 2.76858e-09 -3.20422e-09
+I0729 10:07:14.683530  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:14.683532  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:14.684950  5834 lidar_handler.cpp:775] point correspondence: 1109; corner/surfel 0/1109
+I0729 10:07:14.685001  5834 lidar_handler.cpp:183] point correspondence : 1109; point correspondence_ds : 555
+I0729 10:07:14.685004  5834 trajectory_manager.cpp:332] [point_corrs size] 555
+I0729 10:07:14.685005  5834 trajectory_manager.cpp:333] [opt_domain]: [0.03, 0.13)
+I0729 10:07:14.686628  5834 trajectory_manager.cpp:459] [t_opt] 1.40671
+I0729 10:07:14.686632  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 6.746678e+04, Final cost: 6.746137e+04, Termination: CONVERGENCE
+I0729 10:07:14.686635  5834 trajectory_manager.cpp:461] 2 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.686636  5834 trajectory_manager.cpp:468] [gyro_bias_new] -5.89529e-10 -3.78194e-09 5.19704e-10
+I0729 10:07:14.686638  5834 trajectory_manager.cpp:471] [acce_bias_new] -3.75726e-09 5.56452e-09 -6.44283e-09
+I0729 10:07:14.694867  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2703
+I0729 10:07:14.732609  5834 marginalization_factor.cpp:290] marginalize costs 1.28825/0.020209/0.006777/0.0279/0.000978 = 1.34411 ms.
+I0729 10:07:14.750586  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0485611
+I0729 10:07:14.765066  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:14.765087  5834 odometry_manager.cpp:701] [aver_r_new] 0.00200361 | [aver_a_new] 9.74948
+I0729 10:07:14.765098  5834 odometry_manager.cpp:702] [var_r_new] 0.0132275 | [var_a_new] 0.328618
+I0729 10:07:14.765100  5834 odometry_manager.h:77] [acce_norm] 0.0605175
+I0729 10:07:14.765102  5834 odometry_manager.h:95] [gyro_norm] 0.00200361
+I0729 10:07:14.765105  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:14.765105  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:14.765133  5834 se3_spline.h:669] [cur_idx] 5
+I0729 10:07:14.765136  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:14.765229  5834 msg_manager.h:94] [surf | corn | raw | max] 0.229996 0.191549 0.229996 0.23
+I0729 10:07:14.765234  5834 odometry_manager.cpp:289] Process 2 scans in [0.13, 0.23]
+I0729 10:07:14.765821  5834 trajectory_manager.cpp:260] [max_time_ns] 230000000
+I0729 10:07:14.765825  5834 trajectory_manager.cpp:261] [numKnots aft extension] 6
+I0729 10:07:14.765826  5834 trajectory_manager.cpp:265] [last_bias_time] 130000000 [cur_bias_time] 230000000
+I0729 10:07:14.766098  5834 trajectory_manager.cpp:312] 2 TrajInitSolver Ceres Solver Report: Iterations: 2, Initial cost: 3.383037e+03, Final cost: 2.648861e+03, Termination: CONVERGENCE
+I0729 10:07:14.766103  5834 trajectory_manager.cpp:313] 2 TrajInit Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.768247  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:14.768270  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:14.769981  5834 lidar_handler.cpp:775] point correspondence: 1075; corner/surfel 0/1075
+I0729 10:07:14.770049  5834 lidar_handler.cpp:183] point correspondence : 1075; point correspondence_ds : 538
+I0729 10:07:14.770053  5834 trajectory_manager.cpp:332] [point_corrs size] 538
+I0729 10:07:14.770056  5834 trajectory_manager.cpp:333] [opt_domain]: [0.13, 0.23)
+I0729 10:07:14.772673  5834 trajectory_manager.cpp:459] [t_opt] 2.30697
+I0729 10:07:14.772681  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.065286e+05, Final cost: 1.054247e+05, Termination: CONVERGENCE
+I0729 10:07:14.772686  5834 trajectory_manager.cpp:461] 3 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.772686  5834 trajectory_manager.cpp:468] [gyro_bias_new] -9.63689e-10 -5.2504e-09 -1.10722e-09
+I0729 10:07:14.772689  5834 trajectory_manager.cpp:471] [acce_bias_new] 1.47974e-08 1.39222e-09 -6.38761e-09
+I0729 10:07:14.773133  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:14.773134  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:14.774505  5834 lidar_handler.cpp:775] point correspondence: 1077; corner/surfel 0/1077
+I0729 10:07:14.774566  5834 lidar_handler.cpp:183] point correspondence : 1077; point correspondence_ds : 539
+I0729 10:07:14.774569  5834 trajectory_manager.cpp:332] [point_corrs size] 539
+I0729 10:07:14.774571  5834 trajectory_manager.cpp:333] [opt_domain]: [0.13, 0.23)
+I0729 10:07:14.777094  5834 trajectory_manager.cpp:459] [t_opt] 2.22334
+I0729 10:07:14.777102  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.197921e+05, Final cost: 1.197540e+05, Termination: CONVERGENCE
+I0729 10:07:14.777105  5834 trajectory_manager.cpp:461] 4 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.777107  5834 trajectory_manager.cpp:468] [gyro_bias_new] -1.71333e-09 -7.18133e-09 -2.71565e-09
+I0729 10:07:14.777110  5834 trajectory_manager.cpp:471] [acce_bias_new] 2.89405e-08 -3.01206e-09 -9.73547e-09
+I0729 10:07:14.784865  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2314
+I0729 10:07:14.824128  5834 marginalization_factor.cpp:290] marginalize costs 1.05221/0.018395/0.005536/0.029777/0.000707 = 1.10662 ms.
+I0729 10:07:14.839002  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0503626
+I0729 10:07:14.855129  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:14.855146  5834 odometry_manager.cpp:701] [aver_r_new] 0.00179236 | [aver_a_new] 9.74405
+I0729 10:07:14.855157  5834 odometry_manager.cpp:702] [var_r_new] 0.0128939 | [var_a_new] 0.336469
+I0729 10:07:14.855160  5834 odometry_manager.h:77] [acce_norm] 0.0659471
+I0729 10:07:14.855161  5834 odometry_manager.h:95] [gyro_norm] 0.00179236
+I0729 10:07:14.855162  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:14.855165  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:14.855166  5834 se3_spline.h:669] [cur_idx] 6
+I0729 10:07:14.855168  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:14.855283  5834 msg_manager.h:94] [surf | corn | raw | max] 0.329996 0.291392 0.329996 0.33
+I0729 10:07:14.855288  5834 odometry_manager.cpp:289] Process 2 scans in [0.23, 0.33]
+I0729 10:07:14.855742  5834 trajectory_manager.cpp:260] [max_time_ns] 330000000
+I0729 10:07:14.855746  5834 trajectory_manager.cpp:261] [numKnots aft extension] 7
+I0729 10:07:14.855746  5834 trajectory_manager.cpp:265] [last_bias_time] 230000000 [cur_bias_time] 330000000
+I0729 10:07:14.856184  5834 trajectory_manager.cpp:312] 3 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.814211e+03, Final cost: 2.705166e+03, Termination: CONVERGENCE
+I0729 10:07:14.856191  5834 trajectory_manager.cpp:313] 3 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:14.856839  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:14.856842  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:14.858208  5834 lidar_handler.cpp:775] point correspondence: 1075; corner/surfel 0/1075
+I0729 10:07:14.858270  5834 lidar_handler.cpp:183] point correspondence : 1075; point correspondence_ds : 538
+I0729 10:07:14.858274  5834 trajectory_manager.cpp:332] [point_corrs size] 538
+I0729 10:07:14.858275  5834 trajectory_manager.cpp:333] [opt_domain]: [0.23, 0.33)
+I0729 10:07:14.861956  5834 trajectory_manager.cpp:459] [t_opt] 3.35505
+I0729 10:07:14.861968  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 9.307817e+04, Final cost: 9.119268e+04, Termination: CONVERGENCE
+I0729 10:07:14.861971  5834 trajectory_manager.cpp:461] 5 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.861972  5834 trajectory_manager.cpp:468] [gyro_bias_new] -4.10307e-09 -1.11204e-08 -4.19968e-09
+I0729 10:07:14.861975  5834 trajectory_manager.cpp:471] [acce_bias_new] 3.41993e-08 -2.21764e-09 -1.29038e-08
+I0729 10:07:14.862509  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:14.862511  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:14.863860  5834 lidar_handler.cpp:775] point correspondence: 1074; corner/surfel 0/1074
+I0729 10:07:14.863919  5834 lidar_handler.cpp:183] point correspondence : 1074; point correspondence_ds : 537
+I0729 10:07:14.863924  5834 trajectory_manager.cpp:332] [point_corrs size] 537
+I0729 10:07:14.863924  5834 trajectory_manager.cpp:333] [opt_domain]: [0.23, 0.33)
+I0729 10:07:14.868026  5834 trajectory_manager.cpp:459] [t_opt] 3.75424
+I0729 10:07:14.868042  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.084179e+05, Final cost: 1.076843e+05, Termination: CONVERGENCE
+I0729 10:07:14.868045  5834 trajectory_manager.cpp:461] 6 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.868047  5834 trajectory_manager.cpp:468] [gyro_bias_new] -4.74152e-09 -1.79377e-08 -6.61721e-09
+I0729 10:07:14.868050  5834 trajectory_manager.cpp:471] [acce_bias_new] 3.72979e-08 3.14244e-10 -1.90702e-08
+I0729 10:07:14.883031  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2303
+I0729 10:07:14.924343  5834 marginalization_factor.cpp:290] marginalize costs 3.77/0.028588/0.007961/0.029407/0.000795 = 3.83675 ms.
+I0729 10:07:14.944054  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0488667
+I0729 10:07:14.956135  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:14.956161  5834 odometry_manager.cpp:701] [aver_r_new] 0.00259554 | [aver_a_new] 9.75947
+I0729 10:07:14.956179  5834 odometry_manager.cpp:702] [var_r_new] 0.0142354 | [var_a_new] 0.351282
+I0729 10:07:14.956182  5834 odometry_manager.h:77] [acce_norm] 0.0505265
+I0729 10:07:14.956183  5834 odometry_manager.h:95] [gyro_norm] 0.00259554
+I0729 10:07:14.956184  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:14.956215  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:14.956218  5834 se3_spline.h:669] [cur_idx] 7
+I0729 10:07:14.956220  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:14.956290  5834 msg_manager.h:94] [surf | corn | raw | max] 0.429999 0.392031 0.429999 0.43
+I0729 10:07:14.956295  5834 odometry_manager.cpp:289] Process 2 scans in [0.33, 0.43]
+I0729 10:07:14.956765  5834 trajectory_manager.cpp:260] [max_time_ns] 430000000
+I0729 10:07:14.956768  5834 trajectory_manager.cpp:261] [numKnots aft extension] 8
+I0729 10:07:14.956769  5834 trajectory_manager.cpp:265] [last_bias_time] 330000000 [cur_bias_time] 430000000
+I0729 10:07:14.957224  5834 trajectory_manager.cpp:312] 4 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 7.067607e+03, Final cost: 2.023806e+03, Termination: CONVERGENCE
+I0729 10:07:14.957230  5834 trajectory_manager.cpp:313] 4 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:14.957890  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:14.957897  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:14.959282  5834 lidar_handler.cpp:775] point correspondence: 1064; corner/surfel 0/1064
+I0729 10:07:14.959342  5834 lidar_handler.cpp:183] point correspondence : 1064; point correspondence_ds : 532
+I0729 10:07:14.959345  5834 trajectory_manager.cpp:332] [point_corrs size] 532
+I0729 10:07:14.959347  5834 trajectory_manager.cpp:333] [opt_domain]: [0.33, 0.43)
+I0729 10:07:14.963479  5834 trajectory_manager.cpp:459] [t_opt] 3.75353
+I0729 10:07:14.963492  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.429580e+05, Final cost: 1.352707e+05, Termination: CONVERGENCE
+I0729 10:07:14.963495  5834 trajectory_manager.cpp:461] 7 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.963497  5834 trajectory_manager.cpp:468] [gyro_bias_new] -5.38771e-09 -1.64017e-08 -8.07524e-09
+I0729 10:07:14.963500  5834 trajectory_manager.cpp:471] [acce_bias_new] 6.1265e-08 6.70682e-09 -1.9915e-08
+I0729 10:07:14.964001  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:14.964004  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:14.965613  5834 lidar_handler.cpp:775] point correspondence: 1063; corner/surfel 0/1063
+I0729 10:07:14.965673  5834 lidar_handler.cpp:183] point correspondence : 1063; point correspondence_ds : 532
+I0729 10:07:14.965677  5834 trajectory_manager.cpp:332] [point_corrs size] 532
+I0729 10:07:14.965678  5834 trajectory_manager.cpp:333] [opt_domain]: [0.33, 0.43)
+I0729 10:07:14.970197  5834 trajectory_manager.cpp:459] [t_opt] 4.21988
+I0729 10:07:14.970225  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.298173e+05, Final cost: 1.286466e+05, Termination: CONVERGENCE
+I0729 10:07:14.970229  5834 trajectory_manager.cpp:461] 8 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:14.970232  5834 trajectory_manager.cpp:468] [gyro_bias_new] -5.59886e-09 -1.89222e-08 -5.3233e-09
+I0729 10:07:14.970235  5834 trajectory_manager.cpp:471] [acce_bias_new] 8.78605e-08 8.47344e-09 -2.17926e-08
+I0729 10:07:14.984645  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2295
+I0729 10:07:15.024034  5834 marginalization_factor.cpp:290] marginalize costs 2.23424/0.019362/0.007051/0.042744/0.000743 = 2.30414 ms.
+I0729 10:07:15.039662  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0498116
+I0729 10:07:15.049335  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.049389  5834 odometry_manager.cpp:701] [aver_r_new] 0.00213194 | [aver_a_new] 9.74595
+I0729 10:07:15.049409  5834 odometry_manager.cpp:702] [var_r_new] 0.0138332 | [var_a_new] 0.315577
+I0729 10:07:15.049412  5834 odometry_manager.h:77] [acce_norm] 0.064049
+I0729 10:07:15.049413  5834 odometry_manager.h:95] [gyro_norm] 0.00213194
+I0729 10:07:15.049415  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.049417  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.049419  5834 se3_spline.h:669] [cur_idx] 8
+I0729 10:07:15.049422  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.049553  5834 msg_manager.h:94] [surf | corn | raw | max] 0.529997 0.491871 0.529997 0.53
+I0729 10:07:15.049558  5834 odometry_manager.cpp:289] Process 2 scans in [0.43, 0.53]
+I0729 10:07:15.050127  5834 trajectory_manager.cpp:260] [max_time_ns] 530000000
+I0729 10:07:15.050132  5834 trajectory_manager.cpp:261] [numKnots aft extension] 9
+I0729 10:07:15.050172  5834 trajectory_manager.cpp:265] [last_bias_time] 430000000 [cur_bias_time] 530000000
+I0729 10:07:15.050750  5834 trajectory_manager.cpp:312] 5 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.406274e+04, Final cost: 2.260150e+03, Termination: CONVERGENCE
+I0729 10:07:15.050757  5834 trajectory_manager.cpp:313] 5 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.051463  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.051468  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.052999  5834 lidar_handler.cpp:775] point correspondence: 1064; corner/surfel 0/1064
+I0729 10:07:15.053076  5834 lidar_handler.cpp:183] point correspondence : 1064; point correspondence_ds : 532
+I0729 10:07:15.053081  5834 trajectory_manager.cpp:332] [point_corrs size] 532
+I0729 10:07:15.053084  5834 trajectory_manager.cpp:333] [opt_domain]: [0.43, 0.53)
+I0729 10:07:15.057760  5834 trajectory_manager.cpp:459] [t_opt] 4.27681
+I0729 10:07:15.057777  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.178799e+05, Final cost: 1.146919e+05, Termination: CONVERGENCE
+I0729 10:07:15.057780  5834 trajectory_manager.cpp:461] 9 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.057782  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.76636e-09 -2.28916e-08 -6.78183e-09
+I0729 10:07:15.057785  5834 trajectory_manager.cpp:471] [acce_bias_new] 1.21706e-07 1.40682e-08 -2.18933e-08
+I0729 10:07:15.058343  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.058347  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.059832  5834 lidar_handler.cpp:775] point correspondence: 1065; corner/surfel 0/1065
+I0729 10:07:15.059914  5834 lidar_handler.cpp:183] point correspondence : 1065; point correspondence_ds : 533
+I0729 10:07:15.059921  5834 trajectory_manager.cpp:332] [point_corrs size] 533
+I0729 10:07:15.059922  5834 trajectory_manager.cpp:333] [opt_domain]: [0.43, 0.53)
+I0729 10:07:15.064575  5834 trajectory_manager.cpp:459] [t_opt] 4.26819
+I0729 10:07:15.064592  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 8.878605e+04, Final cost: 8.777126e+04, Termination: CONVERGENCE
+I0729 10:07:15.064596  5834 trajectory_manager.cpp:461] 10 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.064599  5834 trajectory_manager.cpp:468] [gyro_bias_new] -8.96003e-09 -2.57914e-08 -8.09386e-09
+I0729 10:07:15.064601  5834 trajectory_manager.cpp:471] [acce_bias_new] 1.41096e-07 1.47902e-08 -3.09073e-08
+I0729 10:07:15.079253  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2316
+I0729 10:07:15.114679  5834 marginalization_factor.cpp:290] marginalize costs 1.60103/0.035172/0.007302/0.040039/0.000799 = 1.68434 ms.
+I0729 10:07:15.128871  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0491569
+I0729 10:07:15.145845  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.145869  5834 odometry_manager.cpp:701] [aver_r_new] 0.00106095 | [aver_a_new] 9.73978
+I0729 10:07:15.145879  5834 odometry_manager.cpp:702] [var_r_new] 0.0136424 | [var_a_new] 0.367135
+I0729 10:07:15.145881  5834 odometry_manager.h:77] [acce_norm] 0.070216
+I0729 10:07:15.145884  5834 odometry_manager.h:95] [gyro_norm] 0.00106095
+I0729 10:07:15.145884  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.145885  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.145887  5834 se3_spline.h:669] [cur_idx] 9
+I0729 10:07:15.145889  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.145967  5834 msg_manager.h:94] [surf | corn | raw | max] 0.63 0.591705 0.63 0.63
+I0729 10:07:15.145972  5834 odometry_manager.cpp:289] Process 2 scans in [0.53, 0.63]
+I0729 10:07:15.146481  5834 trajectory_manager.cpp:260] [max_time_ns] 630000000
+I0729 10:07:15.146486  5834 trajectory_manager.cpp:261] [numKnots aft extension] 10
+I0729 10:07:15.146487  5834 trajectory_manager.cpp:265] [last_bias_time] 530000000 [cur_bias_time] 630000000
+I0729 10:07:15.146981  5834 trajectory_manager.cpp:312] 6 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.220292e+03, Final cost: 2.344827e+03, Termination: CONVERGENCE
+I0729 10:07:15.147017  5834 trajectory_manager.cpp:313] 6 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.148470  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.148484  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.150035  5834 lidar_handler.cpp:775] point correspondence: 1061; corner/surfel 0/1061
+I0729 10:07:15.150100  5834 lidar_handler.cpp:183] point correspondence : 1061; point correspondence_ds : 531
+I0729 10:07:15.150106  5834 trajectory_manager.cpp:332] [point_corrs size] 531
+I0729 10:07:15.150108  5834 trajectory_manager.cpp:333] [opt_domain]: [0.53, 0.63)
+I0729 10:07:15.155220  5834 trajectory_manager.cpp:459] [t_opt] 4.70974
+I0729 10:07:15.155237  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.335044e+05, Final cost: 1.298749e+05, Termination: CONVERGENCE
+I0729 10:07:15.155241  5834 trajectory_manager.cpp:461] 11 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.155242  5834 trajectory_manager.cpp:468] [gyro_bias_new] -1.01927e-08 -2.90213e-08 -5.4731e-09
+I0729 10:07:15.155261  5834 trajectory_manager.cpp:471] [acce_bias_new] 1.85943e-07 1.43758e-08 -4.46053e-08
+I0729 10:07:15.155767  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.155771  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.157140  5834 lidar_handler.cpp:775] point correspondence: 1065; corner/surfel 0/1065
+I0729 10:07:15.157194  5834 lidar_handler.cpp:183] point correspondence : 1065; point correspondence_ds : 533
+I0729 10:07:15.157198  5834 trajectory_manager.cpp:332] [point_corrs size] 533
+I0729 10:07:15.157199  5834 trajectory_manager.cpp:333] [opt_domain]: [0.53, 0.63)
+I0729 10:07:15.162920  5834 trajectory_manager.cpp:459] [t_opt] 5.42196
+I0729 10:07:15.162945  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.350142e+05, Final cost: 1.338155e+05, Termination: CONVERGENCE
+I0729 10:07:15.162948  5834 trajectory_manager.cpp:461] 12 UpdateLio Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.162950  5834 trajectory_manager.cpp:468] [gyro_bias_new] -2.92982e-08 -3.16908e-08 2.44777e-08
+I0729 10:07:15.162953  5834 trajectory_manager.cpp:471] [acce_bias_new] 3.19731e-07 -1.51999e-08 -8.92433e-08
+I0729 10:07:15.177773  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2349
+I0729 10:07:15.213878  5834 marginalization_factor.cpp:290] marginalize costs 1.22017/0.020388/0.007235/0.030551/0.000826 = 1.27917 ms.
+I0729 10:07:15.223057  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0502326
+I0729 10:07:15.239367  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.239387  5834 odometry_manager.cpp:701] [aver_r_new] 0.00249083 | [aver_a_new] 9.73229
+I0729 10:07:15.239398  5834 odometry_manager.cpp:702] [var_r_new] 0.0129247 | [var_a_new] 0.321071
+I0729 10:07:15.239400  5834 odometry_manager.h:77] [acce_norm] 0.0777134
+I0729 10:07:15.239401  5834 odometry_manager.h:95] [gyro_norm] 0.00249083
+I0729 10:07:15.239403  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.239404  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.239406  5834 se3_spline.h:669] [cur_idx] 10
+I0729 10:07:15.239408  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.239478  5834 msg_manager.h:94] [surf | corn | raw | max] 0.729998 0.691565 0.729998 0.73
+I0729 10:07:15.239482  5834 odometry_manager.cpp:289] Process 2 scans in [0.63, 0.73]
+I0729 10:07:15.239915  5834 trajectory_manager.cpp:260] [max_time_ns] 730000000
+I0729 10:07:15.239918  5834 trajectory_manager.cpp:261] [numKnots aft extension] 11
+I0729 10:07:15.239919  5834 trajectory_manager.cpp:265] [last_bias_time] 630000000 [cur_bias_time] 730000000
+I0729 10:07:15.240432  5834 trajectory_manager.cpp:312] 7 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.163848e+04, Final cost: 1.955473e+03, Termination: CONVERGENCE
+I0729 10:07:15.240473  5834 trajectory_manager.cpp:313] 7 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.241070  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.241072  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.242373  5834 lidar_handler.cpp:775] point correspondence: 1031; corner/surfel 0/1031
+I0729 10:07:15.242426  5834 lidar_handler.cpp:183] point correspondence : 1031; point correspondence_ds : 516
+I0729 10:07:15.242429  5834 trajectory_manager.cpp:332] [point_corrs size] 516
+I0729 10:07:15.242430  5834 trajectory_manager.cpp:333] [opt_domain]: [0.63, 0.73)
+I0729 10:07:15.246428  5834 trajectory_manager.cpp:459] [t_opt] 3.70888
+I0729 10:07:15.246455  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.434358e+05, Final cost: 1.400509e+05, Termination: CONVERGENCE
+I0729 10:07:15.246459  5834 trajectory_manager.cpp:461] 13 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.246460  5834 trajectory_manager.cpp:468] [gyro_bias_new] -3.0662e-08 -3.54222e-08 2.7902e-08
+I0729 10:07:15.246464  5834 trajectory_manager.cpp:471] [acce_bias_new] 3.89252e-07 -1.00476e-08 -1.07974e-07
+I0729 10:07:15.247220  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.247244  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.248838  5834 lidar_handler.cpp:775] point correspondence: 1029; corner/surfel 0/1029
+I0729 10:07:15.248912  5834 lidar_handler.cpp:183] point correspondence : 1029; point correspondence_ds : 515
+I0729 10:07:15.248921  5834 trajectory_manager.cpp:332] [point_corrs size] 515
+I0729 10:07:15.248924  5834 trajectory_manager.cpp:333] [opt_domain]: [0.63, 0.73)
+I0729 10:07:15.252993  5834 trajectory_manager.cpp:459] [t_opt] 3.70415
+I0729 10:07:15.253005  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.141852e+05, Final cost: 1.106925e+05, Termination: CONVERGENCE
+I0729 10:07:15.253008  5834 trajectory_manager.cpp:461] 14 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.253010  5834 trajectory_manager.cpp:468] [gyro_bias_new] -3.32203e-08 -3.37459e-08 2.88066e-08
+I0729 10:07:15.253013  5834 trajectory_manager.cpp:471] [acce_bias_new] 3.89238e-07 3.21705e-09 -1.17641e-07
+I0729 10:07:15.270910  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2303
+I0729 10:07:15.307683  5834 marginalization_factor.cpp:290] marginalize costs 2.35569/0.03719/0.006139/0.029938/0.000743 = 2.4297 ms.
+I0729 10:07:15.324571  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0494273
+I0729 10:07:15.333874  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.333899  5834 odometry_manager.cpp:701] [aver_r_new] 0.00214408 | [aver_a_new] 9.74199
+I0729 10:07:15.333910  5834 odometry_manager.cpp:702] [var_r_new] 0.01467 | [var_a_new] 0.346645
+I0729 10:07:15.333912  5834 odometry_manager.h:77] [acce_norm] 0.0680122
+I0729 10:07:15.333913  5834 odometry_manager.h:95] [gyro_norm] 0.00214408
+I0729 10:07:15.333915  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.333916  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.333918  5834 se3_spline.h:669] [cur_idx] 11
+I0729 10:07:15.333921  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.333992  5834 msg_manager.h:94] [surf | corn | raw | max] 0.829999 0.791426 0.829999 0.83
+I0729 10:07:15.333997  5834 odometry_manager.cpp:289] Process 2 scans in [0.73, 0.83]
+I0729 10:07:15.334450  5834 trajectory_manager.cpp:260] [max_time_ns] 830000000
+I0729 10:07:15.334455  5834 trajectory_manager.cpp:261] [numKnots aft extension] 12
+I0729 10:07:15.334455  5834 trajectory_manager.cpp:265] [last_bias_time] 730000000 [cur_bias_time] 830000000
+I0729 10:07:15.334976  5834 trajectory_manager.cpp:312] 8 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 8.077620e+03, Final cost: 2.603773e+03, Termination: CONVERGENCE
+I0729 10:07:15.334982  5834 trajectory_manager.cpp:313] 8 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.335647  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.335688  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.337112  5834 lidar_handler.cpp:775] point correspondence: 1055; corner/surfel 0/1055
+I0729 10:07:15.337174  5834 lidar_handler.cpp:183] point correspondence : 1055; point correspondence_ds : 528
+I0729 10:07:15.337180  5834 trajectory_manager.cpp:332] [point_corrs size] 528
+I0729 10:07:15.337182  5834 trajectory_manager.cpp:333] [opt_domain]: [0.73, 0.83)
+I0729 10:07:15.341405  5834 trajectory_manager.cpp:459] [t_opt] 3.89341
+I0729 10:07:15.341416  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.489848e+05, Final cost: 1.442320e+05, Termination: CONVERGENCE
+I0729 10:07:15.341419  5834 trajectory_manager.cpp:461] 15 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.341421  5834 trajectory_manager.cpp:468] [gyro_bias_new] -3.8465e-08 -3.68862e-08 3.07247e-08
+I0729 10:07:15.341424  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.08324e-07 -7.79181e-09 -1.37546e-07
+I0729 10:07:15.341884  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.341887  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.343210  5834 lidar_handler.cpp:775] point correspondence: 1056; corner/surfel 0/1056
+I0729 10:07:15.343262  5834 lidar_handler.cpp:183] point correspondence : 1056; point correspondence_ds : 528
+I0729 10:07:15.343266  5834 trajectory_manager.cpp:332] [point_corrs size] 528
+I0729 10:07:15.343266  5834 trajectory_manager.cpp:333] [opt_domain]: [0.73, 0.83)
+I0729 10:07:15.347602  5834 trajectory_manager.cpp:459] [t_opt] 4.05538
+I0729 10:07:15.347620  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.311835e+05, Final cost: 1.296752e+05, Termination: CONVERGENCE
+I0729 10:07:15.347625  5834 trajectory_manager.cpp:461] 16 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.347626  5834 trajectory_manager.cpp:468] [gyro_bias_new] -4.76234e-08 -3.69999e-08 3.31813e-08
+I0729 10:07:15.347630  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.0352e-07 -1.0754e-08 -1.55491e-07
+I0729 10:07:15.363224  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2346
+I0729 10:07:15.396973  5834 marginalization_factor.cpp:290] marginalize costs 1.20329/0.042/0.008429/0.032234/0.000723 = 1.28668 ms.
+I0729 10:07:15.411783  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0511525
+I0729 10:07:15.421654  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.421676  5834 odometry_manager.cpp:701] [aver_r_new] 0.00150532 | [aver_a_new] 9.74704
+I0729 10:07:15.421685  5834 odometry_manager.cpp:702] [var_r_new] 0.0139025 | [var_a_new] 0.346212
+I0729 10:07:15.421689  5834 odometry_manager.h:77] [acce_norm] 0.0629578
+I0729 10:07:15.421689  5834 odometry_manager.h:95] [gyro_norm] 0.00150532
+I0729 10:07:15.421691  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.421692  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.421694  5834 se3_spline.h:669] [cur_idx] 12
+I0729 10:07:15.421695  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.421761  5834 msg_manager.h:94] [surf | corn | raw | max] 0.929702 0.891662 0.929702 0.93
+I0729 10:07:15.421765  5834 odometry_manager.cpp:289] Process 2 scans in [0.83, 0.93]
+I0729 10:07:15.422201  5834 trajectory_manager.cpp:260] [max_time_ns] 930000000
+I0729 10:07:15.422204  5834 trajectory_manager.cpp:261] [numKnots aft extension] 13
+I0729 10:07:15.422205  5834 trajectory_manager.cpp:265] [last_bias_time] 830000000 [cur_bias_time] 930000000
+I0729 10:07:15.422758  5834 trajectory_manager.cpp:312] 9 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.991761e+04, Final cost: 2.245442e+03, Termination: CONVERGENCE
+I0729 10:07:15.422765  5834 trajectory_manager.cpp:313] 9 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.423422  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.423427  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.424739  5834 lidar_handler.cpp:775] point correspondence: 1041; corner/surfel 0/1041
+I0729 10:07:15.424825  5834 lidar_handler.cpp:183] point correspondence : 1041; point correspondence_ds : 521
+I0729 10:07:15.424829  5834 trajectory_manager.cpp:332] [point_corrs size] 521
+I0729 10:07:15.424831  5834 trajectory_manager.cpp:333] [opt_domain]: [0.83, 0.93)
+I0729 10:07:15.430428  5834 trajectory_manager.cpp:459] [t_opt] 5.26698
+I0729 10:07:15.430464  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.409146e+05, Final cost: 1.349953e+05, Termination: CONVERGENCE
+I0729 10:07:15.430469  5834 trajectory_manager.cpp:461] 17 UpdateLio Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.430469  5834 trajectory_manager.cpp:468] [gyro_bias_new] -5.88991e-08 -6.46777e-08 6.05947e-08
+I0729 10:07:15.430472  5834 trajectory_manager.cpp:471] [acce_bias_new] 5.78585e-07 -1.6611e-07 -3.75027e-07
+I0729 10:07:15.431136  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.431142  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.432672  5834 lidar_handler.cpp:775] point correspondence: 1043; corner/surfel 0/1043
+I0729 10:07:15.432734  5834 lidar_handler.cpp:183] point correspondence : 1043; point correspondence_ds : 522
+I0729 10:07:15.432740  5834 trajectory_manager.cpp:332] [point_corrs size] 522
+I0729 10:07:15.432742  5834 trajectory_manager.cpp:333] [opt_domain]: [0.83, 0.93)
+I0729 10:07:15.437237  5834 trajectory_manager.cpp:459] [t_opt] 4.16599
+I0729 10:07:15.437254  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.234885e+05, Final cost: 1.224771e+05, Termination: CONVERGENCE
+I0729 10:07:15.437258  5834 trajectory_manager.cpp:461] 18 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.437259  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.48594e-08 -6.89236e-08 6.34893e-08
+I0729 10:07:15.437263  5834 trajectory_manager.cpp:471] [acce_bias_new] 5.85445e-07 -1.75937e-07 -4.09009e-07
+I0729 10:07:15.453626  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2279
+I0729 10:07:15.496857  5834 marginalization_factor.cpp:290] marginalize costs 2.31479/0.019666/0.020469/0.029133/0.000995 = 2.38506 ms.
+I0729 10:07:15.511994  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0484877
+I0729 10:07:15.528302  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.528342  5834 odometry_manager.cpp:701] [aver_r_new] 0.00276624 | [aver_a_new] 9.73466
+I0729 10:07:15.528357  5834 odometry_manager.cpp:702] [var_r_new] 0.0139098 | [var_a_new] 0.32879
+I0729 10:07:15.528359  5834 odometry_manager.h:77] [acce_norm] 0.0753353
+I0729 10:07:15.528362  5834 odometry_manager.h:95] [gyro_norm] 0.00276624
+I0729 10:07:15.528363  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.528364  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.528367  5834 se3_spline.h:669] [cur_idx] 13
+I0729 10:07:15.528369  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.528488  5834 msg_manager.h:94] [surf | corn | raw | max] 1.02819 0.991513 1.02819 1.03
+I0729 10:07:15.528496  5834 odometry_manager.cpp:289] Process 2 scans in [0.93, 1.03]
+I0729 10:07:15.529132  5834 trajectory_manager.cpp:260] [max_time_ns] 1030000000
+I0729 10:07:15.529146  5834 trajectory_manager.cpp:261] [numKnots aft extension] 14
+I0729 10:07:15.529148  5834 trajectory_manager.cpp:265] [last_bias_time] 930000000 [cur_bias_time] 1030000000
+I0729 10:07:15.529717  5834 trajectory_manager.cpp:312] 10 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 2.782161e+04, Final cost: 2.413171e+03, Termination: CONVERGENCE
+I0729 10:07:15.529723  5834 trajectory_manager.cpp:313] 10 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.530434  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.530439  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.532351  5834 lidar_handler.cpp:775] point correspondence: 1023; corner/surfel 0/1023
+I0729 10:07:15.532423  5834 lidar_handler.cpp:183] point correspondence : 1023; point correspondence_ds : 512
+I0729 10:07:15.532474  5834 trajectory_manager.cpp:332] [point_corrs size] 512
+I0729 10:07:15.532476  5834 trajectory_manager.cpp:333] [opt_domain]: [0.93, 1.03)
+I0729 10:07:15.536545  5834 trajectory_manager.cpp:459] [t_opt] 3.66793
+I0729 10:07:15.536556  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.048545e+05, Final cost: 1.039622e+05, Termination: CONVERGENCE
+I0729 10:07:15.536558  5834 trajectory_manager.cpp:461] 19 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.536561  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.72651e-08 -7.12441e-08 6.10295e-08
+I0729 10:07:15.536563  5834 trajectory_manager.cpp:471] [acce_bias_new] 5.57976e-07 -1.82193e-07 -4.63592e-07
+I0729 10:07:15.537016  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.537019  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.538370  5834 lidar_handler.cpp:775] point correspondence: 1023; corner/surfel 0/1023
+I0729 10:07:15.538420  5834 lidar_handler.cpp:183] point correspondence : 1023; point correspondence_ds : 512
+I0729 10:07:15.538424  5834 trajectory_manager.cpp:332] [point_corrs size] 512
+I0729 10:07:15.538425  5834 trajectory_manager.cpp:333] [opt_domain]: [0.93, 1.03)
+I0729 10:07:15.542585  5834 trajectory_manager.cpp:459] [t_opt] 3.85624
+I0729 10:07:15.542618  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.050162e+05, Final cost: 1.049989e+05, Termination: CONVERGENCE
+I0729 10:07:15.542621  5834 trajectory_manager.cpp:461] 20 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.542623  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.98075e-08 -7.38442e-08 5.85874e-08
+I0729 10:07:15.542626  5834 trajectory_manager.cpp:471] [acce_bias_new] 5.33381e-07 -1.87944e-07 -5.20304e-07
+I0729 10:07:15.557675  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2261
+I0729 10:07:15.596803  5834 marginalization_factor.cpp:290] marginalize costs 1.23896/0.023273/0.008916/0.030647/0.000718 = 1.30252 ms.
+I0729 10:07:15.604861  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0504658
+I0729 10:07:15.619910  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.619935  5834 odometry_manager.cpp:701] [aver_r_new] 0.00234686 | [aver_a_new] 9.73818
+I0729 10:07:15.619944  5834 odometry_manager.cpp:702] [var_r_new] 0.0129308 | [var_a_new] 0.35911
+I0729 10:07:15.619947  5834 odometry_manager.h:77] [acce_norm] 0.0718204
+I0729 10:07:15.619948  5834 odometry_manager.h:95] [gyro_norm] 0.00234686
+I0729 10:07:15.619951  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.619951  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.619952  5834 se3_spline.h:669] [cur_idx] 14
+I0729 10:07:15.619954  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.620018  5834 msg_manager.h:94] [surf | corn | raw | max] 1.12681 1.09137 1.12681 1.13
+I0729 10:07:15.620023  5834 odometry_manager.cpp:289] Process 2 scans in [1.03, 1.13]
+I0729 10:07:15.620450  5834 trajectory_manager.cpp:260] [max_time_ns] 1130000000
+I0729 10:07:15.620452  5834 trajectory_manager.cpp:261] [numKnots aft extension] 15
+I0729 10:07:15.620453  5834 trajectory_manager.cpp:265] [last_bias_time] 1030000000 [cur_bias_time] 1130000000
+I0729 10:07:15.620927  5834 trajectory_manager.cpp:312] 11 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 5.950542e+03, Final cost: 2.462668e+03, Termination: CONVERGENCE
+I0729 10:07:15.620932  5834 trajectory_manager.cpp:313] 11 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.621479  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.621481  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.622817  5834 lidar_handler.cpp:775] point correspondence: 1033; corner/surfel 0/1033
+I0729 10:07:15.622876  5834 lidar_handler.cpp:183] point correspondence : 1033; point correspondence_ds : 517
+I0729 10:07:15.622879  5834 trajectory_manager.cpp:332] [point_corrs size] 517
+I0729 10:07:15.622881  5834 trajectory_manager.cpp:333] [opt_domain]: [1.03, 1.13)
+I0729 10:07:15.626919  5834 trajectory_manager.cpp:459] [t_opt] 3.70473
+I0729 10:07:15.626928  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.215058e+05, Final cost: 1.210771e+05, Termination: CONVERGENCE
+I0729 10:07:15.626931  5834 trajectory_manager.cpp:461] 21 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.626933  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.99075e-08 -7.40785e-08 5.43608e-08
+I0729 10:07:15.626935  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.72424e-07 -1.70798e-07 -5.99136e-07
+I0729 10:07:15.627413  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.627418  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.628947  5834 lidar_handler.cpp:775] point correspondence: 1033; corner/surfel 0/1033
+I0729 10:07:15.629020  5834 lidar_handler.cpp:183] point correspondence : 1033; point correspondence_ds : 517
+I0729 10:07:15.629025  5834 trajectory_manager.cpp:332] [point_corrs size] 517
+I0729 10:07:15.629027  5834 trajectory_manager.cpp:333] [opt_domain]: [1.03, 1.13)
+I0729 10:07:15.633955  5834 trajectory_manager.cpp:459] [t_opt] 4.59811
+I0729 10:07:15.633975  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.357144e+05, Final cost: 1.341903e+05, Termination: CONVERGENCE
+I0729 10:07:15.633980  5834 trajectory_manager.cpp:461] 22 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.633981  5834 trajectory_manager.cpp:468] [gyro_bias_new] -7.52307e-08 -7.69552e-08 5.21659e-08
+I0729 10:07:15.633984  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.61398e-07 -1.97713e-07 -6.84305e-07
+I0729 10:07:15.650421  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2232
+I0729 10:07:15.683398  5834 marginalization_factor.cpp:290] marginalize costs 1.07472/0.020755/0.00754/0.029921/0.000707 = 1.13364 ms.
+I0729 10:07:15.698436  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0493193
+I0729 10:07:15.707950  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.707975  5834 odometry_manager.cpp:701] [aver_r_new] 0.00238469 | [aver_a_new] 9.74782
+I0729 10:07:15.707986  5834 odometry_manager.cpp:702] [var_r_new] 0.0145474 | [var_a_new] 0.302403
+I0729 10:07:15.707988  5834 odometry_manager.h:77] [acce_norm] 0.0621791
+I0729 10:07:15.707990  5834 odometry_manager.h:95] [gyro_norm] 0.00238469
+I0729 10:07:15.707991  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.707993  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.707994  5834 se3_spline.h:669] [cur_idx] 15
+I0729 10:07:15.707995  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.708065  5834 msg_manager.h:94] [surf | corn | raw | max] 1.23 1.19201 1.23 1.23
+I0729 10:07:15.708070  5834 odometry_manager.cpp:289] Process 2 scans in [1.13, 1.23]
+I0729 10:07:15.708515  5834 trajectory_manager.cpp:260] [max_time_ns] 1230000000
+I0729 10:07:15.708518  5834 trajectory_manager.cpp:261] [numKnots aft extension] 16
+I0729 10:07:15.708520  5834 trajectory_manager.cpp:265] [last_bias_time] 1130000000 [cur_bias_time] 1230000000
+I0729 10:07:15.709118  5834 trajectory_manager.cpp:312] 12 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 5.546506e+03, Final cost: 2.625856e+03, Termination: CONVERGENCE
+I0729 10:07:15.709126  5834 trajectory_manager.cpp:313] 12 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.709746  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.709748  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.711241  5834 lidar_handler.cpp:775] point correspondence: 1050; corner/surfel 0/1050
+I0729 10:07:15.711311  5834 lidar_handler.cpp:183] point correspondence : 1050; point correspondence_ds : 525
+I0729 10:07:15.711314  5834 trajectory_manager.cpp:332] [point_corrs size] 525
+I0729 10:07:15.711315  5834 trajectory_manager.cpp:333] [opt_domain]: [1.13, 1.23)
+I0729 10:07:15.715632  5834 trajectory_manager.cpp:459] [t_opt] 4.02568
+I0729 10:07:15.715652  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.592598e+05, Final cost: 1.555053e+05, Termination: CONVERGENCE
+I0729 10:07:15.715695  5834 trajectory_manager.cpp:461] 23 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.715783  5834 trajectory_manager.cpp:468] [gyro_bias_new] -7.66064e-08 -7.61802e-08 4.92117e-08
+I0729 10:07:15.715790  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.82365e-07 -1.98375e-07 -7.48567e-07
+I0729 10:07:15.716385  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.716389  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.717839  5834 lidar_handler.cpp:775] point correspondence: 1052; corner/surfel 0/1052
+I0729 10:07:15.717893  5834 lidar_handler.cpp:183] point correspondence : 1052; point correspondence_ds : 526
+I0729 10:07:15.717897  5834 trajectory_manager.cpp:332] [point_corrs size] 526
+I0729 10:07:15.717898  5834 trajectory_manager.cpp:333] [opt_domain]: [1.13, 1.23)
+I0729 10:07:15.722028  5834 trajectory_manager.cpp:459] [t_opt] 3.83557
+I0729 10:07:15.722034  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.322631e+05, Final cost: 1.313913e+05, Termination: CONVERGENCE
+I0729 10:07:15.722038  5834 trajectory_manager.cpp:461] 24 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.722038  5834 trajectory_manager.cpp:468] [gyro_bias_new] -7.77669e-08 -7.59693e-08 4.53802e-08
+I0729 10:07:15.722041  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.6386e-07 -1.9031e-07 -8.06512e-07
+I0729 10:07:15.738809  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2294
+I0729 10:07:15.771663  5834 marginalization_factor.cpp:290] marginalize costs 1.24576/0.017653/0.006429/0.030608/0.000769 = 1.30122 ms.
+I0729 10:07:15.787655  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0490906
+I0729 10:07:15.804188  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.804214  5834 odometry_manager.cpp:701] [aver_r_new] 0.00610372 | [aver_a_new] 9.74406
+I0729 10:07:15.804225  5834 odometry_manager.cpp:702] [var_r_new] 0.0160917 | [var_a_new] 0.373567
+I0729 10:07:15.804227  5834 odometry_manager.h:77] [acce_norm] 0.0659429
+I0729 10:07:15.804229  5834 odometry_manager.h:95] [gyro_norm] 0.00610372
+I0729 10:07:15.804231  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.804232  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.804234  5834 se3_spline.h:669] [cur_idx] 16
+I0729 10:07:15.804235  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.804309  5834 msg_manager.h:94] [surf | corn | raw | max] 1.33 1.29186 1.33 1.33
+I0729 10:07:15.804314  5834 odometry_manager.cpp:289] Process 2 scans in [1.23, 1.33]
+I0729 10:07:15.804752  5834 trajectory_manager.cpp:260] [max_time_ns] 1330000000
+I0729 10:07:15.804755  5834 trajectory_manager.cpp:261] [numKnots aft extension] 17
+I0729 10:07:15.804756  5834 trajectory_manager.cpp:265] [last_bias_time] 1230000000 [cur_bias_time] 1330000000
+I0729 10:07:15.805315  5834 trajectory_manager.cpp:312] 13 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 8.270454e+03, Final cost: 2.689177e+03, Termination: CONVERGENCE
+I0729 10:07:15.805321  5834 trajectory_manager.cpp:313] 13 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.805935  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.805938  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.807336  5834 lidar_handler.cpp:775] point correspondence: 1075; corner/surfel 0/1075
+I0729 10:07:15.807395  5834 lidar_handler.cpp:183] point correspondence : 1075; point correspondence_ds : 538
+I0729 10:07:15.807397  5834 trajectory_manager.cpp:332] [point_corrs size] 538
+I0729 10:07:15.807399  5834 trajectory_manager.cpp:333] [opt_domain]: [1.23, 1.33)
+I0729 10:07:15.812469  5834 trajectory_manager.cpp:459] [t_opt] 4.70683
+I0729 10:07:15.812505  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.036352e+05, Final cost: 1.019245e+05, Termination: CONVERGENCE
+I0729 10:07:15.812508  5834 trajectory_manager.cpp:461] 25 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.812561  5834 trajectory_manager.cpp:468] [gyro_bias_new] -7.6116e-08 -7.5558e-08 3.97832e-08
+I0729 10:07:15.812564  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.2042e-07 -1.83677e-07 -9.0625e-07
+I0729 10:07:15.813060  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.813062  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.814512  5834 lidar_handler.cpp:775] point correspondence: 1075; corner/surfel 0/1075
+I0729 10:07:15.814584  5834 lidar_handler.cpp:183] point correspondence : 1075; point correspondence_ds : 538
+I0729 10:07:15.814589  5834 trajectory_manager.cpp:332] [point_corrs size] 538
+I0729 10:07:15.814589  5834 trajectory_manager.cpp:333] [opt_domain]: [1.23, 1.33)
+I0729 10:07:15.818918  5834 trajectory_manager.cpp:459] [t_opt] 4.03838
+I0729 10:07:15.818929  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 9.966319e+04, Final cost: 9.962448e+04, Termination: CONVERGENCE
+I0729 10:07:15.818933  5834 trajectory_manager.cpp:461] 26 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.818934  5834 trajectory_manager.cpp:468] [gyro_bias_new] -7.4865e-08 -7.56373e-08 3.41297e-08
+I0729 10:07:15.818938  5834 trajectory_manager.cpp:471] [acce_bias_new] 3.784e-07 -1.75269e-07 -1.01989e-06
+I0729 10:07:15.835673  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2289
+I0729 10:07:15.869912  5834 marginalization_factor.cpp:290] marginalize costs 1.08747/0.023937/0.006122/0.030252/0.000713 = 1.14849 ms.
+I0729 10:07:15.877207  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0507801
+I0729 10:07:15.895241  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.895263  5834 odometry_manager.cpp:701] [aver_r_new] 0.00511231 | [aver_a_new] 9.74171
+I0729 10:07:15.895273  5834 odometry_manager.cpp:702] [var_r_new] 0.0254126 | [var_a_new] 0.434785
+I0729 10:07:15.895277  5834 odometry_manager.h:77] [acce_norm] 0.068295
+I0729 10:07:15.895278  5834 odometry_manager.h:95] [gyro_norm] 0.00511231
+I0729 10:07:15.895279  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.895282  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.895282  5834 se3_spline.h:669] [cur_idx] 17
+I0729 10:07:15.895284  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.895365  5834 msg_manager.h:94] [surf | corn | raw | max] 1.43 1.39169 1.43 1.43
+I0729 10:07:15.895370  5834 odometry_manager.cpp:289] Process 2 scans in [1.33, 1.43]
+I0729 10:07:15.895905  5834 trajectory_manager.cpp:260] [max_time_ns] 1430000000
+I0729 10:07:15.895908  5834 trajectory_manager.cpp:261] [numKnots aft extension] 18
+I0729 10:07:15.895910  5834 trajectory_manager.cpp:265] [last_bias_time] 1330000000 [cur_bias_time] 1430000000
+I0729 10:07:15.896471  5834 trajectory_manager.cpp:312] 14 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 3.835823e+03, Final cost: 2.148120e+03, Termination: CONVERGENCE
+I0729 10:07:15.896476  5834 trajectory_manager.cpp:313] 14 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.897166  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.897172  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.898711  5834 lidar_handler.cpp:775] point correspondence: 1065; corner/surfel 0/1065
+I0729 10:07:15.898849  5834 lidar_handler.cpp:183] point correspondence : 1065; point correspondence_ds : 533
+I0729 10:07:15.898857  5834 trajectory_manager.cpp:332] [point_corrs size] 533
+I0729 10:07:15.898859  5834 trajectory_manager.cpp:333] [opt_domain]: [1.33, 1.43)
+I0729 10:07:15.903744  5834 trajectory_manager.cpp:459] [t_opt] 4.50003
+I0729 10:07:15.903762  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.428683e+05, Final cost: 1.400672e+05, Termination: CONVERGENCE
+I0729 10:07:15.903765  5834 trajectory_manager.cpp:461] 27 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.903767  5834 trajectory_manager.cpp:468] [gyro_bias_new] -7.07744e-08 -7.59571e-08 3.13445e-08
+I0729 10:07:15.903803  5834 trajectory_manager.cpp:471] [acce_bias_new] 3.96842e-07 -2.09866e-07 -1.14747e-06
+I0729 10:07:15.904300  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.904302  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.905658  5834 lidar_handler.cpp:775] point correspondence: 1064; corner/surfel 0/1064
+I0729 10:07:15.905719  5834 lidar_handler.cpp:183] point correspondence : 1064; point correspondence_ds : 532
+I0729 10:07:15.905723  5834 trajectory_manager.cpp:332] [point_corrs size] 532
+I0729 10:07:15.905725  5834 trajectory_manager.cpp:333] [opt_domain]: [1.33, 1.43)
+I0729 10:07:15.910017  5834 trajectory_manager.cpp:459] [t_opt] 3.92262
+I0729 10:07:15.910034  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.389930e+05, Final cost: 1.388141e+05, Termination: CONVERGENCE
+I0729 10:07:15.910038  5834 trajectory_manager.cpp:461] 28 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.910039  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.82529e-08 -7.66493e-08 2.96802e-08
+I0729 10:07:15.910043  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.14423e-07 -2.50616e-07 -1.28923e-06
+I0729 10:07:15.924960  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2315
+I0729 10:07:15.962868  5834 marginalization_factor.cpp:290] marginalize costs 1.99367/0.020019/0.013838/0.031054/0.000778 = 2.05936 ms.
+I0729 10:07:15.977042  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.04881
+I0729 10:07:15.985913  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:15.985935  5834 odometry_manager.cpp:701] [aver_r_new] 0.00385814 | [aver_a_new] 9.74381
+I0729 10:07:15.985946  5834 odometry_manager.cpp:702] [var_r_new] 0.0181845 | [var_a_new] 0.389351
+I0729 10:07:15.985949  5834 odometry_manager.h:77] [acce_norm] 0.0661886
+I0729 10:07:15.985950  5834 odometry_manager.h:95] [gyro_norm] 0.00385814
+I0729 10:07:15.985951  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:15.985953  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:15.985955  5834 se3_spline.h:669] [cur_idx] 18
+I0729 10:07:15.985957  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:15.986027  5834 msg_manager.h:94] [surf | corn | raw | max] 1.53 1.49153 1.53 1.53
+I0729 10:07:15.986032  5834 odometry_manager.cpp:289] Process 2 scans in [1.43, 1.53]
+I0729 10:07:15.986522  5834 trajectory_manager.cpp:260] [max_time_ns] 1530000000
+I0729 10:07:15.986526  5834 trajectory_manager.cpp:261] [numKnots aft extension] 19
+I0729 10:07:15.986527  5834 trajectory_manager.cpp:265] [last_bias_time] 1430000000 [cur_bias_time] 1530000000
+I0729 10:07:15.987032  5834 trajectory_manager.cpp:312] 15 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.436612e+03, Final cost: 2.935466e+03, Termination: CONVERGENCE
+I0729 10:07:15.987037  5834 trajectory_manager.cpp:313] 15 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:15.987800  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.987807  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.989800  5834 lidar_handler.cpp:775] point correspondence: 1094; corner/surfel 0/1094
+I0729 10:07:15.989886  5834 lidar_handler.cpp:183] point correspondence : 1094; point correspondence_ds : 547
+I0729 10:07:15.989892  5834 trajectory_manager.cpp:332] [point_corrs size] 547
+I0729 10:07:15.989894  5834 trajectory_manager.cpp:333] [opt_domain]: [1.43, 1.53)
+I0729 10:07:15.994328  5834 trajectory_manager.cpp:459] [t_opt] 4.09971
+I0729 10:07:15.994338  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.072796e+05, Final cost: 1.053937e+05, Termination: CONVERGENCE
+I0729 10:07:15.994342  5834 trajectory_manager.cpp:461] 29 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:15.994344  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.61186e-08 -7.83637e-08 2.50752e-08
+I0729 10:07:15.994346  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.29183e-07 -2.47578e-07 -1.46304e-06
+I0729 10:07:15.994848  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:15.994910  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:15.996371  5834 lidar_handler.cpp:775] point correspondence: 1093; corner/surfel 0/1093
+I0729 10:07:15.996433  5834 lidar_handler.cpp:183] point correspondence : 1093; point correspondence_ds : 547
+I0729 10:07:15.996434  5834 trajectory_manager.cpp:332] [point_corrs size] 547
+I0729 10:07:15.996436  5834 trajectory_manager.cpp:333] [opt_domain]: [1.43, 1.53)
+I0729 10:07:16.001338  5834 trajectory_manager.cpp:459] [t_opt] 4.59419
+I0729 10:07:16.001353  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.027258e+05, Final cost: 1.023474e+05, Termination: CONVERGENCE
+I0729 10:07:16.001356  5834 trajectory_manager.cpp:461] 30 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.001358  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.50929e-08 -7.82057e-08 2.11262e-08
+I0729 10:07:16.001360  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.55467e-07 -2.64705e-07 -1.61185e-06
+I0729 10:07:16.017503  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2270
+I0729 10:07:16.052927  5834 marginalization_factor.cpp:290] marginalize costs 1.2237/0.018643/0.006583/0.039707/0.000774 = 1.2894 ms.
+I0729 10:07:16.067379  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0488341
+I0729 10:07:16.075460  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.075484  5834 odometry_manager.cpp:701] [aver_r_new] 0.00233359 | [aver_a_new] 9.73775
+I0729 10:07:16.075493  5834 odometry_manager.cpp:702] [var_r_new] 0.0169485 | [var_a_new] 0.344726
+I0729 10:07:16.075495  5834 odometry_manager.h:77] [acce_norm] 0.0722474
+I0729 10:07:16.075496  5834 odometry_manager.h:95] [gyro_norm] 0.00233359
+I0729 10:07:16.075498  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.075500  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.075501  5834 se3_spline.h:669] [cur_idx] 19
+I0729 10:07:16.075505  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.075580  5834 msg_manager.h:94] [surf | corn | raw | max] 1.63 1.59137 1.63 1.63
+I0729 10:07:16.075584  5834 odometry_manager.cpp:289] Process 2 scans in [1.53, 1.63]
+I0729 10:07:16.076048  5834 trajectory_manager.cpp:260] [max_time_ns] 1630000000
+I0729 10:07:16.076051  5834 trajectory_manager.cpp:261] [numKnots aft extension] 20
+I0729 10:07:16.076052  5834 trajectory_manager.cpp:265] [last_bias_time] 1530000000 [cur_bias_time] 1630000000
+I0729 10:07:16.076614  5834 trajectory_manager.cpp:312] 16 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.873322e+03, Final cost: 4.407821e+03, Termination: CONVERGENCE
+I0729 10:07:16.076620  5834 trajectory_manager.cpp:313] 16 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.077404  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.077409  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.078815  5834 lidar_handler.cpp:775] point correspondence: 1077; corner/surfel 0/1077
+I0729 10:07:16.078873  5834 lidar_handler.cpp:183] point correspondence : 1077; point correspondence_ds : 539
+I0729 10:07:16.078876  5834 trajectory_manager.cpp:332] [point_corrs size] 539
+I0729 10:07:16.078877  5834 trajectory_manager.cpp:333] [opt_domain]: [1.53, 1.63)
+I0729 10:07:16.083376  5834 trajectory_manager.cpp:459] [t_opt] 4.15497
+I0729 10:07:16.083386  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.017008e+05, Final cost: 1.005201e+05, Termination: CONVERGENCE
+I0729 10:07:16.083389  5834 trajectory_manager.cpp:461] 31 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.083391  5834 trajectory_manager.cpp:468] [gyro_bias_new] -6.05072e-08 -7.8981e-08 1.62971e-08
+I0729 10:07:16.083395  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.40919e-07 -2.97524e-07 -1.76558e-06
+I0729 10:07:16.083894  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.083895  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.085310  5834 lidar_handler.cpp:775] point correspondence: 1077; corner/surfel 0/1077
+I0729 10:07:16.085397  5834 lidar_handler.cpp:183] point correspondence : 1077; point correspondence_ds : 539
+I0729 10:07:16.085400  5834 trajectory_manager.cpp:332] [point_corrs size] 539
+I0729 10:07:16.085402  5834 trajectory_manager.cpp:333] [opt_domain]: [1.53, 1.63)
+I0729 10:07:16.089979  5834 trajectory_manager.cpp:459] [t_opt] 4.26191
+I0729 10:07:16.089998  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 9.870699e+04, Final cost: 9.870034e+04, Termination: CONVERGENCE
+I0729 10:07:16.090001  5834 trajectory_manager.cpp:461] 32 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.090003  5834 trajectory_manager.cpp:468] [gyro_bias_new] -5.651e-08 -7.96241e-08 1.12138e-08
+I0729 10:07:16.090005  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.27894e-07 -3.29542e-07 -1.92216e-06
+I0729 10:07:16.105448  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2295
+I0729 10:07:16.140435  5834 marginalization_factor.cpp:290] marginalize costs 1.20519/0.040408/0.006528/0.029793/0.000706 = 1.28263 ms.
+I0729 10:07:16.154631  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0474
+I0729 10:07:16.168473  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.168498  5834 odometry_manager.cpp:701] [aver_r_new] 0.00396144 | [aver_a_new] 9.74644
+I0729 10:07:16.168509  5834 odometry_manager.cpp:702] [var_r_new] 0.0156363 | [var_a_new] 0.319457
+I0729 10:07:16.168511  5834 odometry_manager.h:77] [acce_norm] 0.0635643
+I0729 10:07:16.168514  5834 odometry_manager.h:95] [gyro_norm] 0.00396144
+I0729 10:07:16.168515  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.168516  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.168517  5834 se3_spline.h:669] [cur_idx] 20
+I0729 10:07:16.168519  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.168587  5834 msg_manager.h:94] [surf | corn | raw | max] 1.73 1.69201 1.73 1.73
+I0729 10:07:16.168592  5834 odometry_manager.cpp:289] Process 2 scans in [1.63, 1.73]
+I0729 10:07:16.169034  5834 trajectory_manager.cpp:260] [max_time_ns] 1730000000
+I0729 10:07:16.169036  5834 trajectory_manager.cpp:261] [numKnots aft extension] 21
+I0729 10:07:16.169037  5834 trajectory_manager.cpp:265] [last_bias_time] 1630000000 [cur_bias_time] 1730000000
+I0729 10:07:16.169564  5834 trajectory_manager.cpp:312] 17 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 5.804788e+03, Final cost: 3.161074e+03, Termination: CONVERGENCE
+I0729 10:07:16.169571  5834 trajectory_manager.cpp:313] 17 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.170179  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.170182  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.171499  5834 lidar_handler.cpp:775] point correspondence: 1064; corner/surfel 0/1064
+I0729 10:07:16.171552  5834 lidar_handler.cpp:183] point correspondence : 1064; point correspondence_ds : 532
+I0729 10:07:16.171555  5834 trajectory_manager.cpp:332] [point_corrs size] 532
+I0729 10:07:16.171556  5834 trajectory_manager.cpp:333] [opt_domain]: [1.63, 1.73)
+I0729 10:07:16.175663  5834 trajectory_manager.cpp:459] [t_opt] 3.7899
+I0729 10:07:16.175675  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.212601e+05, Final cost: 1.187724e+05, Termination: CONVERGENCE
+I0729 10:07:16.175678  5834 trajectory_manager.cpp:461] 33 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.175679  5834 trajectory_manager.cpp:468] [gyro_bias_new] -5.24691e-08 -7.90418e-08 5.34115e-09
+I0729 10:07:16.175683  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.46629e-07 -3.36299e-07 -2.08748e-06
+I0729 10:07:16.176182  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.176184  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.177558  5834 lidar_handler.cpp:775] point correspondence: 1063; corner/surfel 0/1063
+I0729 10:07:16.177614  5834 lidar_handler.cpp:183] point correspondence : 1063; point correspondence_ds : 532
+I0729 10:07:16.177616  5834 trajectory_manager.cpp:332] [point_corrs size] 532
+I0729 10:07:16.177655  5834 trajectory_manager.cpp:333] [opt_domain]: [1.63, 1.73)
+I0729 10:07:16.182255  5834 trajectory_manager.cpp:459] [t_opt] 4.20206
+I0729 10:07:16.182288  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 9.643075e+04, Final cost: 9.557525e+04, Termination: CONVERGENCE
+I0729 10:07:16.182293  5834 trajectory_manager.cpp:461] 34 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.182296  5834 trajectory_manager.cpp:468] [gyro_bias_new] -4.82372e-08 -7.8558e-08 3.13835e-09
+I0729 10:07:16.182299  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.3877e-07 -3.69255e-07 -2.25247e-06
+I0729 10:07:16.199506  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2306
+I0729 10:07:16.234521  5834 marginalization_factor.cpp:290] marginalize costs 1.59696/0.018825/0.006274/0.031247/0.0007 = 1.654 ms.
+I0729 10:07:16.241683  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0507054
+I0729 10:07:16.255879  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.255903  5834 odometry_manager.cpp:701] [aver_r_new] 0.00136333 | [aver_a_new] 9.72894
+I0729 10:07:16.255914  5834 odometry_manager.cpp:702] [var_r_new] 0.0134887 | [var_a_new] 0.341291
+I0729 10:07:16.255916  5834 odometry_manager.h:77] [acce_norm] 0.0810589
+I0729 10:07:16.255918  5834 odometry_manager.h:95] [gyro_norm] 0.00136333
+I0729 10:07:16.255920  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.255921  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.255923  5834 se3_spline.h:669] [cur_idx] 21
+I0729 10:07:16.255925  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.256000  5834 msg_manager.h:94] [surf | corn | raw | max] 1.82994 1.79185 1.82994 1.83
+I0729 10:07:16.256006  5834 odometry_manager.cpp:289] Process 2 scans in [1.73, 1.83]
+I0729 10:07:16.256508  5834 trajectory_manager.cpp:260] [max_time_ns] 1830000000
+I0729 10:07:16.256515  5834 trajectory_manager.cpp:261] [numKnots aft extension] 22
+I0729 10:07:16.256516  5834 trajectory_manager.cpp:265] [last_bias_time] 1730000000 [cur_bias_time] 1830000000
+I0729 10:07:16.257020  5834 trajectory_manager.cpp:312] 18 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.325179e+03, Final cost: 2.925442e+03, Termination: CONVERGENCE
+I0729 10:07:16.257026  5834 trajectory_manager.cpp:313] 18 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.257830  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.257838  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.259212  5834 lidar_handler.cpp:775] point correspondence: 1053; corner/surfel 0/1053
+I0729 10:07:16.259274  5834 lidar_handler.cpp:183] point correspondence : 1053; point correspondence_ds : 527
+I0729 10:07:16.259279  5834 trajectory_manager.cpp:332] [point_corrs size] 527
+I0729 10:07:16.259280  5834 trajectory_manager.cpp:333] [opt_domain]: [1.73, 1.83)
+I0729 10:07:16.265323  5834 trajectory_manager.cpp:459] [t_opt] 5.67853
+I0729 10:07:16.265342  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.155480e+05, Final cost: 1.129879e+05, Termination: CONVERGENCE
+I0729 10:07:16.265347  5834 trajectory_manager.cpp:461] 35 UpdateLio Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.265347  5834 trajectory_manager.cpp:468] [gyro_bias_new] -3.37817e-08 -7.71629e-08 1.14045e-08
+I0729 10:07:16.265350  5834 trajectory_manager.cpp:471] [acce_bias_new] 6.60193e-07 -7.35477e-07 -3.09066e-06
+I0729 10:07:16.265882  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.265884  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.267318  5834 lidar_handler.cpp:775] point correspondence: 1054; corner/surfel 0/1054
+I0729 10:07:16.267377  5834 lidar_handler.cpp:183] point correspondence : 1054; point correspondence_ds : 527
+I0729 10:07:16.267382  5834 trajectory_manager.cpp:332] [point_corrs size] 527
+I0729 10:07:16.267383  5834 trajectory_manager.cpp:333] [opt_domain]: [1.73, 1.83)
+I0729 10:07:16.271471  5834 trajectory_manager.cpp:459] [t_opt] 3.74695
+I0729 10:07:16.271478  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.286436e+05, Final cost: 1.279805e+05, Termination: CONVERGENCE
+I0729 10:07:16.271481  5834 trajectory_manager.cpp:461] 36 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.271482  5834 trajectory_manager.cpp:468] [gyro_bias_new] -3.06843e-08 -7.69737e-08 1.17241e-08
+I0729 10:07:16.271485  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.4717e-07 -8.30893e-07 -3.31247e-06
+I0729 10:07:16.286410  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2294
+I0729 10:07:16.318509  5834 marginalization_factor.cpp:290] marginalize costs 1.50658/0.063098/0.016149/0.03533/0.000693 = 1.62185 ms.
+I0729 10:07:16.334470  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0500641
+I0729 10:07:16.342305  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.342336  5834 odometry_manager.cpp:701] [aver_r_new] 0.0028375 | [aver_a_new] 9.74401
+I0729 10:07:16.342348  5834 odometry_manager.cpp:702] [var_r_new] 0.0143859 | [var_a_new] 0.340995
+I0729 10:07:16.342351  5834 odometry_manager.h:77] [acce_norm] 0.0659942
+I0729 10:07:16.342353  5834 odometry_manager.h:95] [gyro_norm] 0.0028375
+I0729 10:07:16.342355  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.342356  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.342358  5834 se3_spline.h:669] [cur_idx] 22
+I0729 10:07:16.342360  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.342504  5834 msg_manager.h:94] [surf | corn | raw | max] 1.93 1.89168 1.93 1.93
+I0729 10:07:16.342509  5834 odometry_manager.cpp:289] Process 2 scans in [1.83, 1.93]
+I0729 10:07:16.343148  5834 trajectory_manager.cpp:260] [max_time_ns] 1930000000
+I0729 10:07:16.343159  5834 trajectory_manager.cpp:261] [numKnots aft extension] 23
+I0729 10:07:16.343161  5834 trajectory_manager.cpp:265] [last_bias_time] 1830000000 [cur_bias_time] 1930000000
+I0729 10:07:16.343731  5834 trajectory_manager.cpp:312] 19 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 8.395313e+03, Final cost: 2.716596e+03, Termination: CONVERGENCE
+I0729 10:07:16.343737  5834 trajectory_manager.cpp:313] 19 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.344436  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.344440  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.345798  5834 lidar_handler.cpp:775] point correspondence: 1026; corner/surfel 0/1026
+I0729 10:07:16.345901  5834 lidar_handler.cpp:183] point correspondence : 1026; point correspondence_ds : 513
+I0729 10:07:16.345916  5834 trajectory_manager.cpp:332] [point_corrs size] 513
+I0729 10:07:16.345917  5834 trajectory_manager.cpp:333] [opt_domain]: [1.83, 1.93)
+I0729 10:07:16.350061  5834 trajectory_manager.cpp:459] [t_opt] 3.73403
+I0729 10:07:16.350072  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.023401e+05, Final cost: 1.013391e+05, Termination: CONVERGENCE
+I0729 10:07:16.350075  5834 trajectory_manager.cpp:461] 37 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.350077  5834 trajectory_manager.cpp:468] [gyro_bias_new] -2.46181e-08 -7.57277e-08 1.15052e-08
+I0729 10:07:16.350080  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.74471e-07 -8.79996e-07 -3.51353e-06
+I0729 10:07:16.350562  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.350566  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.351945  5834 lidar_handler.cpp:775] point correspondence: 1027; corner/surfel 0/1027
+I0729 10:07:16.352015  5834 lidar_handler.cpp:183] point correspondence : 1027; point correspondence_ds : 514
+I0729 10:07:16.352018  5834 trajectory_manager.cpp:332] [point_corrs size] 514
+I0729 10:07:16.352020  5834 trajectory_manager.cpp:333] [opt_domain]: [1.83, 1.93)
+I0729 10:07:16.356047  5834 trajectory_manager.cpp:459] [t_opt] 3.75143
+I0729 10:07:16.356056  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.017923e+05, Final cost: 1.016405e+05, Termination: CONVERGENCE
+I0729 10:07:16.356086  5834 trajectory_manager.cpp:461] 38 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.356086  5834 trajectory_manager.cpp:468] [gyro_bias_new] -1.87727e-08 -7.45532e-08 1.15574e-08
+I0729 10:07:16.356089  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.78546e-07 -9.44549e-07 -3.70803e-06
+I0729 10:07:16.371181  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2280
+I0729 10:07:16.405851  5834 marginalization_factor.cpp:290] marginalize costs 1.19034/0.019171/0.005889/0.030919/0.000669 = 1.24699 ms.
+I0729 10:07:16.419159  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0499027
+I0729 10:07:16.435189  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.435213  5834 odometry_manager.cpp:701] [aver_r_new] 0.00238109 | [aver_a_new] 9.73513
+I0729 10:07:16.435225  5834 odometry_manager.cpp:702] [var_r_new] 0.0135434 | [var_a_new] 0.337769
+I0729 10:07:16.435226  5834 odometry_manager.h:77] [acce_norm] 0.0748717
+I0729 10:07:16.435228  5834 odometry_manager.h:95] [gyro_norm] 0.00238109
+I0729 10:07:16.435230  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.435231  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.435232  5834 se3_spline.h:669] [cur_idx] 23
+I0729 10:07:16.435235  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.435302  5834 msg_manager.h:94] [surf | corn | raw | max] 2.03 1.99152 2.03 2.03
+I0729 10:07:16.435307  5834 odometry_manager.cpp:289] Process 2 scans in [1.93, 2.03]
+I0729 10:07:16.435761  5834 trajectory_manager.cpp:260] [max_time_ns] 2030000000
+I0729 10:07:16.435765  5834 trajectory_manager.cpp:261] [numKnots aft extension] 24
+I0729 10:07:16.435766  5834 trajectory_manager.cpp:265] [last_bias_time] 1930000000 [cur_bias_time] 2030000000
+I0729 10:07:16.436383  5834 trajectory_manager.cpp:312] 20 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 5.763813e+03, Final cost: 2.996859e+03, Termination: CONVERGENCE
+I0729 10:07:16.436393  5834 trajectory_manager.cpp:313] 20 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.437100  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.437104  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.438477  5834 lidar_handler.cpp:775] point correspondence: 1023; corner/surfel 0/1023
+I0729 10:07:16.438531  5834 lidar_handler.cpp:183] point correspondence : 1023; point correspondence_ds : 512
+I0729 10:07:16.438534  5834 trajectory_manager.cpp:332] [point_corrs size] 512
+I0729 10:07:16.438535  5834 trajectory_manager.cpp:333] [opt_domain]: [1.93, 2.03)
+I0729 10:07:16.442691  5834 trajectory_manager.cpp:459] [t_opt] 3.83041
+I0729 10:07:16.442699  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.092921e+05, Final cost: 1.083908e+05, Termination: CONVERGENCE
+I0729 10:07:16.442703  5834 trajectory_manager.cpp:461] 39 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.442703  5834 trajectory_manager.cpp:468] [gyro_bias_new] -1.34938e-08 -7.2331e-08 7.98538e-09
+I0729 10:07:16.442706  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.5867e-07 -9.99526e-07 -3.94522e-06
+I0729 10:07:16.443212  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.443213  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.444489  5834 lidar_handler.cpp:775] point correspondence: 1026; corner/surfel 0/1026
+I0729 10:07:16.444540  5834 lidar_handler.cpp:183] point correspondence : 1026; point correspondence_ds : 513
+I0729 10:07:16.444543  5834 trajectory_manager.cpp:332] [point_corrs size] 513
+I0729 10:07:16.444545  5834 trajectory_manager.cpp:333] [opt_domain]: [1.93, 2.03)
+I0729 10:07:16.448850  5834 trajectory_manager.cpp:459] [t_opt] 3.99836
+I0729 10:07:16.448869  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.067452e+05, Final cost: 1.064783e+05, Termination: CONVERGENCE
+I0729 10:07:16.448873  5834 trajectory_manager.cpp:461] 40 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.448937  5834 trajectory_manager.cpp:468] [gyro_bias_new] -8.50159e-09 -7.14922e-08 5.10015e-09
+I0729 10:07:16.448940  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.3338e-07 -1.04889e-06 -4.18207e-06
+I0729 10:07:16.465098  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2320
+I0729 10:07:16.505295  5834 marginalization_factor.cpp:290] marginalize costs 1.41437/0.023252/0.006254/0.030625/0.000725 = 1.47522 ms.
+I0729 10:07:16.512879  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0500324
+I0729 10:07:16.528450  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.528478  5834 odometry_manager.cpp:701] [aver_r_new] 0.00179162 | [aver_a_new] 9.75527
+I0729 10:07:16.528494  5834 odometry_manager.cpp:702] [var_r_new] 0.0134453 | [var_a_new] 0.35159
+I0729 10:07:16.528496  5834 odometry_manager.h:77] [acce_norm] 0.054732
+I0729 10:07:16.528498  5834 odometry_manager.h:95] [gyro_norm] 0.00179162
+I0729 10:07:16.528499  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.528501  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.528502  5834 se3_spline.h:669] [cur_idx] 24
+I0729 10:07:16.528504  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.528595  5834 msg_manager.h:94] [surf | corn | raw | max] 2.13 2.09135 2.13 2.13
+I0729 10:07:16.528600  5834 odometry_manager.cpp:289] Process 2 scans in [2.03, 2.13]
+I0729 10:07:16.529124  5834 trajectory_manager.cpp:260] [max_time_ns] 2130000000
+I0729 10:07:16.529126  5834 trajectory_manager.cpp:261] [numKnots aft extension] 25
+I0729 10:07:16.529129  5834 trajectory_manager.cpp:265] [last_bias_time] 2030000000 [cur_bias_time] 2130000000
+I0729 10:07:16.529719  5834 trajectory_manager.cpp:312] 21 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 5.596215e+03, Final cost: 3.061829e+03, Termination: CONVERGENCE
+I0729 10:07:16.529726  5834 trajectory_manager.cpp:313] 21 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.530933  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.530942  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.532752  5834 lidar_handler.cpp:775] point correspondence: 1065; corner/surfel 0/1065
+I0729 10:07:16.532841  5834 lidar_handler.cpp:183] point correspondence : 1065; point correspondence_ds : 533
+I0729 10:07:16.532845  5834 trajectory_manager.cpp:332] [point_corrs size] 533
+I0729 10:07:16.532848  5834 trajectory_manager.cpp:333] [opt_domain]: [2.03, 2.13)
+I0729 10:07:16.537184  5834 trajectory_manager.cpp:459] [t_opt] 3.88791
+I0729 10:07:16.537195  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.528890e+05, Final cost: 1.499908e+05, Termination: CONVERGENCE
+I0729 10:07:16.537199  5834 trajectory_manager.cpp:461] 41 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.537200  5834 trajectory_manager.cpp:468] [gyro_bias_new] -5.50192e-10 -7.10011e-08 2.77715e-09
+I0729 10:07:16.537204  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.32925e-07 -1.11184e-06 -4.43499e-06
+I0729 10:07:16.537671  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.537673  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.539098  5834 lidar_handler.cpp:775] point correspondence: 1067; corner/surfel 0/1067
+I0729 10:07:16.539152  5834 lidar_handler.cpp:183] point correspondence : 1067; point correspondence_ds : 534
+I0729 10:07:16.539156  5834 trajectory_manager.cpp:332] [point_corrs size] 534
+I0729 10:07:16.539157  5834 trajectory_manager.cpp:333] [opt_domain]: [2.03, 2.13)
+I0729 10:07:16.543247  5834 trajectory_manager.cpp:459] [t_opt] 3.80997
+I0729 10:07:16.543254  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.256753e+05, Final cost: 1.250949e+05, Termination: CONVERGENCE
+I0729 10:07:16.543257  5834 trajectory_manager.cpp:461] 42 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.543259  5834 trajectory_manager.cpp:468] [gyro_bias_new] 4.06574e-09 -7.20196e-08 2.25543e-10
+I0729 10:07:16.543287  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.30062e-07 -1.18668e-06 -4.71531e-06
+I0729 10:07:16.564908  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2325
+I0729 10:07:16.597687  5834 marginalization_factor.cpp:290] marginalize costs 1.41138/0.03374/0.013143/0.032194/0.000931 = 1.49139 ms.
+I0729 10:07:16.615603  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0488701
+I0729 10:07:16.624126  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.624176  5834 odometry_manager.cpp:701] [aver_r_new] 0.00308414 | [aver_a_new] 9.73147
+I0729 10:07:16.624187  5834 odometry_manager.cpp:702] [var_r_new] 0.0134501 | [var_a_new] 0.33838
+I0729 10:07:16.624190  5834 odometry_manager.h:77] [acce_norm] 0.0785295
+I0729 10:07:16.624191  5834 odometry_manager.h:95] [gyro_norm] 0.00308414
+I0729 10:07:16.624193  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.624194  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.624197  5834 se3_spline.h:669] [cur_idx] 25
+I0729 10:07:16.624198  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.624274  5834 msg_manager.h:94] [surf | corn | raw | max] 2.22921 2.192 2.22921 2.23
+I0729 10:07:16.624277  5834 odometry_manager.cpp:289] Process 2 scans in [2.13, 2.23]
+I0729 10:07:16.624742  5834 trajectory_manager.cpp:260] [max_time_ns] 2230000000
+I0729 10:07:16.624744  5834 trajectory_manager.cpp:261] [numKnots aft extension] 26
+I0729 10:07:16.624745  5834 trajectory_manager.cpp:265] [last_bias_time] 2130000000 [cur_bias_time] 2230000000
+I0729 10:07:16.625217  5834 trajectory_manager.cpp:312] 22 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.307961e+04, Final cost: 3.104959e+03, Termination: CONVERGENCE
+I0729 10:07:16.625223  5834 trajectory_manager.cpp:313] 22 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.625789  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.625792  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.627341  5834 lidar_handler.cpp:775] point correspondence: 1023; corner/surfel 0/1023
+I0729 10:07:16.627401  5834 lidar_handler.cpp:183] point correspondence : 1023; point correspondence_ds : 512
+I0729 10:07:16.627405  5834 trajectory_manager.cpp:332] [point_corrs size] 512
+I0729 10:07:16.627408  5834 trajectory_manager.cpp:333] [opt_domain]: [2.13, 2.23)
+I0729 10:07:16.632064  5834 trajectory_manager.cpp:459] [t_opt] 4.327
+I0729 10:07:16.632081  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 8.600420e+04, Final cost: 8.483610e+04, Termination: CONVERGENCE
+I0729 10:07:16.632084  5834 trajectory_manager.cpp:461] 43 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.632086  5834 trajectory_manager.cpp:468] [gyro_bias_new] 8.42505e-09 -7.23989e-08 -4.76189e-09
+I0729 10:07:16.632089  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.25917e-07 -1.24207e-06 -5.03021e-06
+I0729 10:07:16.632546  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.632548  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.633848  5834 lidar_handler.cpp:775] point correspondence: 1023; corner/surfel 0/1023
+I0729 10:07:16.633904  5834 lidar_handler.cpp:183] point correspondence : 1023; point correspondence_ds : 512
+I0729 10:07:16.633908  5834 trajectory_manager.cpp:332] [point_corrs size] 512
+I0729 10:07:16.633910  5834 trajectory_manager.cpp:333] [opt_domain]: [2.13, 2.23)
+I0729 10:07:16.638170  5834 trajectory_manager.cpp:459] [t_opt] 3.89165
+I0729 10:07:16.638183  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 8.746011e+04, Final cost: 8.740583e+04, Termination: CONVERGENCE
+I0729 10:07:16.638186  5834 trajectory_manager.cpp:461] 44 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.638188  5834 trajectory_manager.cpp:468] [gyro_bias_new] 1.17865e-08 -7.2844e-08 -9.93994e-09
+I0729 10:07:16.638190  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.33961e-07 -1.29706e-06 -5.34757e-06
+I0729 10:07:16.654399  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2240
+I0729 10:07:16.701483  5834 marginalization_factor.cpp:290] marginalize costs 1.09802/0.025339/0.00643/0.02998/0.000707 = 1.16047 ms.
+I0729 10:07:16.716549  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0508299
+I0729 10:07:16.724617  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.724646  5834 odometry_manager.cpp:701] [aver_r_new] 0.00315193 | [aver_a_new] 9.74173
+I0729 10:07:16.724658  5834 odometry_manager.cpp:702] [var_r_new] 0.0153003 | [var_a_new] 0.340727
+I0729 10:07:16.724659  5834 odometry_manager.h:77] [acce_norm] 0.0682745
+I0729 10:07:16.724661  5834 odometry_manager.h:95] [gyro_norm] 0.00315193
+I0729 10:07:16.724663  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.724664  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.724665  5834 se3_spline.h:669] [cur_idx] 26
+I0729 10:07:16.724668  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.724733  5834 msg_manager.h:94] [surf | corn | raw | max] 2.32796 2.29185 2.32796 2.33
+I0729 10:07:16.724737  5834 odometry_manager.cpp:289] Process 2 scans in [2.23, 2.33]
+I0729 10:07:16.725150  5834 trajectory_manager.cpp:260] [max_time_ns] 2330000000
+I0729 10:07:16.725153  5834 trajectory_manager.cpp:261] [numKnots aft extension] 27
+I0729 10:07:16.725154  5834 trajectory_manager.cpp:265] [last_bias_time] 2230000000 [cur_bias_time] 2330000000
+I0729 10:07:16.725682  5834 trajectory_manager.cpp:312] 23 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 7.397604e+03, Final cost: 3.521843e+03, Termination: CONVERGENCE
+I0729 10:07:16.725689  5834 trajectory_manager.cpp:313] 23 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.726219  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.726222  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.727562  5834 lidar_handler.cpp:775] point correspondence: 1022; corner/surfel 0/1022
+I0729 10:07:16.727614  5834 lidar_handler.cpp:183] point correspondence : 1022; point correspondence_ds : 511
+I0729 10:07:16.727617  5834 trajectory_manager.cpp:332] [point_corrs size] 511
+I0729 10:07:16.727618  5834 trajectory_manager.cpp:333] [opt_domain]: [2.23, 2.33)
+I0729 10:07:16.732515  5834 trajectory_manager.cpp:459] [t_opt] 4.58469
+I0729 10:07:16.732550  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.003816e+05, Final cost: 9.986437e+04, Termination: CONVERGENCE
+I0729 10:07:16.732553  5834 trajectory_manager.cpp:461] 45 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.732555  5834 trajectory_manager.cpp:468] [gyro_bias_new] 1.75261e-08 -7.12813e-08 -1.53847e-08
+I0729 10:07:16.732558  5834 trajectory_manager.cpp:471] [acce_bias_new] 6.96355e-07 -1.37511e-06 -5.6483e-06
+I0729 10:07:16.733088  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.733091  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.734405  5834 lidar_handler.cpp:775] point correspondence: 1022; corner/surfel 0/1022
+I0729 10:07:16.734499  5834 lidar_handler.cpp:183] point correspondence : 1022; point correspondence_ds : 511
+I0729 10:07:16.734508  5834 trajectory_manager.cpp:332] [point_corrs size] 511
+I0729 10:07:16.734510  5834 trajectory_manager.cpp:333] [opt_domain]: [2.23, 2.33)
+I0729 10:07:16.739097  5834 trajectory_manager.cpp:459] [t_opt] 4.12771
+I0729 10:07:16.739112  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.138842e+05, Final cost: 1.129652e+05, Termination: CONVERGENCE
+I0729 10:07:16.739115  5834 trajectory_manager.cpp:461] 46 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.739117  5834 trajectory_manager.cpp:468] [gyro_bias_new] 2.16579e-08 -7.11799e-08 -2.04534e-08
+I0729 10:07:16.739120  5834 trajectory_manager.cpp:471] [acce_bias_new] 6.96922e-07 -1.45938e-06 -5.98225e-06
+I0729 10:07:16.754982  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2236
+I0729 10:07:16.790711  5834 marginalization_factor.cpp:290] marginalize costs 1.08123/0.018789/0.006401/0.030113/0.000708 = 1.13724 ms.
+I0729 10:07:16.806241  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0493536
+I0729 10:07:16.820423  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.820451  5834 odometry_manager.cpp:701] [aver_r_new] 0.00217501 | [aver_a_new] 9.7245
+I0729 10:07:16.820462  5834 odometry_manager.cpp:702] [var_r_new] 0.0129664 | [var_a_new] 0.335672
+I0729 10:07:16.820464  5834 odometry_manager.h:77] [acce_norm] 0.0854991
+I0729 10:07:16.820466  5834 odometry_manager.h:95] [gyro_norm] 0.00217501
+I0729 10:07:16.820467  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.820468  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.820470  5834 se3_spline.h:669] [cur_idx] 27
+I0729 10:07:16.820472  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.820545  5834 msg_manager.h:94] [surf | corn | raw | max] 2.42645 2.39169 2.42645 2.43
+I0729 10:07:16.820549  5834 odometry_manager.cpp:289] Process 2 scans in [2.33, 2.43]
+I0729 10:07:16.821020  5834 trajectory_manager.cpp:260] [max_time_ns] 2430000000
+I0729 10:07:16.821025  5834 trajectory_manager.cpp:261] [numKnots aft extension] 28
+I0729 10:07:16.821027  5834 trajectory_manager.cpp:265] [last_bias_time] 2330000000 [cur_bias_time] 2430000000
+I0729 10:07:16.821517  5834 trajectory_manager.cpp:312] 24 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 7.427434e+03, Final cost: 3.329345e+03, Termination: CONVERGENCE
+I0729 10:07:16.821522  5834 trajectory_manager.cpp:313] 24 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.822096  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.822099  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.823473  5834 lidar_handler.cpp:775] point correspondence: 1068; corner/surfel 0/1068
+I0729 10:07:16.823529  5834 lidar_handler.cpp:183] point correspondence : 1068; point correspondence_ds : 534
+I0729 10:07:16.823531  5834 trajectory_manager.cpp:332] [point_corrs size] 534
+I0729 10:07:16.823534  5834 trajectory_manager.cpp:333] [opt_domain]: [2.33, 2.43)
+I0729 10:07:16.827915  5834 trajectory_manager.cpp:459] [t_opt] 4.04908
+I0729 10:07:16.827930  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.530203e+05, Final cost: 1.500663e+05, Termination: CONVERGENCE
+I0729 10:07:16.827934  5834 trajectory_manager.cpp:461] 47 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.827934  5834 trajectory_manager.cpp:468] [gyro_bias_new] 2.99831e-08 -7.29947e-08 -2.5035e-08
+I0729 10:07:16.827937  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.36721e-07 -1.52914e-06 -6.33589e-06
+I0729 10:07:16.828411  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.828413  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.829826  5834 lidar_handler.cpp:775] point correspondence: 1068; corner/surfel 0/1068
+I0729 10:07:16.829883  5834 lidar_handler.cpp:183] point correspondence : 1068; point correspondence_ds : 534
+I0729 10:07:16.829887  5834 trajectory_manager.cpp:332] [point_corrs size] 534
+I0729 10:07:16.829888  5834 trajectory_manager.cpp:333] [opt_domain]: [2.33, 2.43)
+I0729 10:07:16.834283  5834 trajectory_manager.cpp:459] [t_opt] 4.08504
+I0729 10:07:16.834295  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.445047e+05, Final cost: 1.427076e+05, Termination: CONVERGENCE
+I0729 10:07:16.834297  5834 trajectory_manager.cpp:461] 48 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.834300  5834 trajectory_manager.cpp:468] [gyro_bias_new] 3.82939e-08 -7.45846e-08 -2.67875e-08
+I0729 10:07:16.834303  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.46657e-07 -1.65045e-06 -6.67809e-06
+I0729 10:07:16.851742  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2280
+I0729 10:07:16.887801  5834 marginalization_factor.cpp:290] marginalize costs 1.49064/0.019179/0.006541/0.031859/0.000797 = 1.54902 ms.
+I0729 10:07:16.902662  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0491195
+I0729 10:07:16.910952  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:16.911003  5834 odometry_manager.cpp:701] [aver_r_new] 0.00348498 | [aver_a_new] 9.74304
+I0729 10:07:16.911015  5834 odometry_manager.cpp:702] [var_r_new] 0.0129602 | [var_a_new] 0.299191
+I0729 10:07:16.911016  5834 odometry_manager.h:77] [acce_norm] 0.0669614
+I0729 10:07:16.911017  5834 odometry_manager.h:95] [gyro_norm] 0.00348498
+I0729 10:07:16.911020  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:16.911020  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:16.911022  5834 se3_spline.h:669] [cur_idx] 28
+I0729 10:07:16.911024  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:16.911106  5834 msg_manager.h:94] [surf | corn | raw | max] 2.53 2.49152 2.53 2.53
+I0729 10:07:16.911110  5834 odometry_manager.cpp:289] Process 2 scans in [2.43, 2.53]
+I0729 10:07:16.911563  5834 trajectory_manager.cpp:260] [max_time_ns] 2530000000
+I0729 10:07:16.911566  5834 trajectory_manager.cpp:261] [numKnots aft extension] 29
+I0729 10:07:16.911567  5834 trajectory_manager.cpp:265] [last_bias_time] 2430000000 [cur_bias_time] 2530000000
+I0729 10:07:16.912084  5834 trajectory_manager.cpp:312] 25 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.094145e+04, Final cost: 3.570008e+03, Termination: CONVERGENCE
+I0729 10:07:16.912091  5834 trajectory_manager.cpp:313] 25 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:16.912727  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.912729  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.914325  5834 lidar_handler.cpp:775] point correspondence: 1073; corner/surfel 0/1073
+I0729 10:07:16.914388  5834 lidar_handler.cpp:183] point correspondence : 1073; point correspondence_ds : 537
+I0729 10:07:16.914392  5834 trajectory_manager.cpp:332] [point_corrs size] 537
+I0729 10:07:16.914394  5834 trajectory_manager.cpp:333] [opt_domain]: [2.43, 2.53)
+I0729 10:07:16.918787  5834 trajectory_manager.cpp:459] [t_opt] 4.03075
+I0729 10:07:16.918797  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.180122e+05, Final cost: 1.161351e+05, Termination: CONVERGENCE
+I0729 10:07:16.918802  5834 trajectory_manager.cpp:461] 49 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.918802  5834 trajectory_manager.cpp:468] [gyro_bias_new] 4.85844e-08 -7.55083e-08 -3.14671e-08
+I0729 10:07:16.918805  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.5617e-07 -1.7246e-06 -7.03865e-06
+I0729 10:07:16.919282  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:16.919286  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:16.920723  5834 lidar_handler.cpp:775] point correspondence: 1073; corner/surfel 0/1073
+I0729 10:07:16.920781  5834 lidar_handler.cpp:183] point correspondence : 1073; point correspondence_ds : 537
+I0729 10:07:16.920784  5834 trajectory_manager.cpp:332] [point_corrs size] 537
+I0729 10:07:16.920785  5834 trajectory_manager.cpp:333] [opt_domain]: [2.43, 2.53)
+I0729 10:07:16.925137  5834 trajectory_manager.cpp:459] [t_opt] 4.03751
+I0729 10:07:16.925149  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.055157e+05, Final cost: 1.048560e+05, Termination: CONVERGENCE
+I0729 10:07:16.925153  5834 trajectory_manager.cpp:461] 50 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:16.925155  5834 trajectory_manager.cpp:468] [gyro_bias_new] 5.93908e-08 -7.667e-08 -3.63778e-08
+I0729 10:07:16.925158  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.4654e-07 -1.80437e-06 -7.39876e-06
+I0729 10:07:16.941924  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2263
+I0729 10:07:16.985409  5834 marginalization_factor.cpp:290] marginalize costs 1.56101/0.0183/0.006655/0.030525/0.000743 = 1.61723 ms.
+I0729 10:07:16.999084  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0492945
+I0729 10:07:17.008734  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.008765  5834 odometry_manager.cpp:701] [aver_r_new] 0.00300305 | [aver_a_new] 9.73842
+I0729 10:07:17.008776  5834 odometry_manager.cpp:702] [var_r_new] 0.0136222 | [var_a_new] 0.341087
+I0729 10:07:17.008809  5834 odometry_manager.h:77] [acce_norm] 0.0715835
+I0729 10:07:17.008811  5834 odometry_manager.h:95] [gyro_norm] 0.00300305
+I0729 10:07:17.008812  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.008813  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.008816  5834 se3_spline.h:669] [cur_idx] 29
+I0729 10:07:17.008818  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.008906  5834 msg_manager.h:94] [surf | corn | raw | max] 2.63 2.59135 2.63 2.63
+I0729 10:07:17.008910  5834 odometry_manager.cpp:289] Process 2 scans in [2.53, 2.63]
+I0729 10:07:17.009390  5834 trajectory_manager.cpp:260] [max_time_ns] 2630000000
+I0729 10:07:17.009393  5834 trajectory_manager.cpp:261] [numKnots aft extension] 30
+I0729 10:07:17.009394  5834 trajectory_manager.cpp:265] [last_bias_time] 2530000000 [cur_bias_time] 2630000000
+I0729 10:07:17.010013  5834 trajectory_manager.cpp:312] 26 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.061243e+04, Final cost: 3.903019e+03, Termination: CONVERGENCE
+I0729 10:07:17.010023  5834 trajectory_manager.cpp:313] 26 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.010869  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.010874  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.012339  5834 lidar_handler.cpp:775] point correspondence: 1077; corner/surfel 0/1077
+I0729 10:07:17.012403  5834 lidar_handler.cpp:183] point correspondence : 1077; point correspondence_ds : 539
+I0729 10:07:17.012406  5834 trajectory_manager.cpp:332] [point_corrs size] 539
+I0729 10:07:17.012408  5834 trajectory_manager.cpp:333] [opt_domain]: [2.53, 2.63)
+I0729 10:07:17.017117  5834 trajectory_manager.cpp:459] [t_opt] 4.27492
+I0729 10:07:17.017131  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.103000e+05, Final cost: 1.093709e+05, Termination: CONVERGENCE
+I0729 10:07:17.017135  5834 trajectory_manager.cpp:461] 51 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.017138  5834 trajectory_manager.cpp:468] [gyro_bias_new] 6.90828e-08 -7.63771e-08 -3.86148e-08
+I0729 10:07:17.017140  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.4013e-07 -1.92063e-06 -7.73245e-06
+I0729 10:07:17.017624  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.017627  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.019091  5834 lidar_handler.cpp:775] point correspondence: 1076; corner/surfel 0/1076
+I0729 10:07:17.019151  5834 lidar_handler.cpp:183] point correspondence : 1076; point correspondence_ds : 538
+I0729 10:07:17.019155  5834 trajectory_manager.cpp:332] [point_corrs size] 538
+I0729 10:07:17.019157  5834 trajectory_manager.cpp:333] [opt_domain]: [2.53, 2.63)
+I0729 10:07:17.023288  5834 trajectory_manager.cpp:459] [t_opt] 3.83398
+I0729 10:07:17.023295  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.141592e+05, Final cost: 1.139435e+05, Termination: CONVERGENCE
+I0729 10:07:17.023298  5834 trajectory_manager.cpp:461] 52 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.023299  5834 trajectory_manager.cpp:468] [gyro_bias_new] 7.67976e-08 -7.70946e-08 -4.23968e-08
+I0729 10:07:17.023303  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.21359e-07 -2.02249e-06 -8.08805e-06
+I0729 10:07:17.038444  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2330
+I0729 10:07:17.071853  5834 marginalization_factor.cpp:290] marginalize costs 1.0602/0.027532/0.007667/0.030714/0.00082 = 1.12693 ms.
+I0729 10:07:17.084748  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0492165
+I0729 10:07:17.093094  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.093122  5834 odometry_manager.cpp:701] [aver_r_new] 0.00236747 | [aver_a_new] 9.74934
+I0729 10:07:17.093132  5834 odometry_manager.cpp:702] [var_r_new] 0.0131292 | [var_a_new] 0.331313
+I0729 10:07:17.093134  5834 odometry_manager.h:77] [acce_norm] 0.0606581
+I0729 10:07:17.093137  5834 odometry_manager.h:95] [gyro_norm] 0.00236747
+I0729 10:07:17.093166  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.093168  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.093169  5834 se3_spline.h:669] [cur_idx] 30
+I0729 10:07:17.093171  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.093293  5834 msg_manager.h:94] [surf | corn | raw | max] 2.73 2.69199 2.73 2.73
+I0729 10:07:17.093303  5834 odometry_manager.cpp:289] Process 2 scans in [2.63, 2.73]
+I0729 10:07:17.093818  5834 trajectory_manager.cpp:260] [max_time_ns] 2730000000
+I0729 10:07:17.093822  5834 trajectory_manager.cpp:261] [numKnots aft extension] 31
+I0729 10:07:17.093822  5834 trajectory_manager.cpp:265] [last_bias_time] 2630000000 [cur_bias_time] 2730000000
+I0729 10:07:17.094355  5834 trajectory_manager.cpp:312] 27 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 7.636241e+03, Final cost: 3.284872e+03, Termination: CONVERGENCE
+I0729 10:07:17.094360  5834 trajectory_manager.cpp:313] 27 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.094985  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.094988  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.096403  5834 lidar_handler.cpp:775] point correspondence: 1046; corner/surfel 0/1046
+I0729 10:07:17.096468  5834 lidar_handler.cpp:183] point correspondence : 1046; point correspondence_ds : 523
+I0729 10:07:17.096472  5834 trajectory_manager.cpp:332] [point_corrs size] 523
+I0729 10:07:17.096475  5834 trajectory_manager.cpp:333] [opt_domain]: [2.63, 2.73)
+I0729 10:07:17.100790  5834 trajectory_manager.cpp:459] [t_opt] 3.96727
+I0729 10:07:17.100806  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 9.455565e+04, Final cost: 9.316914e+04, Termination: CONVERGENCE
+I0729 10:07:17.100811  5834 trajectory_manager.cpp:461] 53 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.100811  5834 trajectory_manager.cpp:468] [gyro_bias_new] 8.61951e-08 -7.85548e-08 -4.60074e-08
+I0729 10:07:17.100816  5834 trajectory_manager.cpp:471] [acce_bias_new] 7.06413e-07 -2.15815e-06 -8.47773e-06
+I0729 10:07:17.101274  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.101275  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.102586  5834 lidar_handler.cpp:775] point correspondence: 1047; corner/surfel 0/1047
+I0729 10:07:17.102643  5834 lidar_handler.cpp:183] point correspondence : 1047; point correspondence_ds : 524
+I0729 10:07:17.102646  5834 trajectory_manager.cpp:332] [point_corrs size] 524
+I0729 10:07:17.102648  5834 trajectory_manager.cpp:333] [opt_domain]: [2.63, 2.73)
+I0729 10:07:17.114688  5834 trajectory_manager.cpp:459] [t_opt] 11.7396
+I0729 10:07:17.114742  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 7.329368e+04, Final cost: 7.269986e+04, Termination: NO_CONVERGENCE
+I0729 10:07:17.114745  5834 trajectory_manager.cpp:461] 54 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:17.114748  5834 trajectory_manager.cpp:468] [gyro_bias_new] 3.38101e-05 -4.15824e-06 -1.89429e-05
+I0729 10:07:17.114750  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.12393e-05 -0.000308666 -0.00130932
+I0729 10:07:17.132177  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2247
+I0729 10:07:17.173804  5834 marginalization_factor.cpp:290] marginalize costs 5.76242/0.023167/0.006827/0.03108/0.000795 = 5.82429 ms.
+I0729 10:07:17.188408  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0495303
+I0729 10:07:17.206605  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.206632  5834 odometry_manager.cpp:701] [aver_r_new] 0.00321371 | [aver_a_new] 9.74488
+I0729 10:07:17.206643  5834 odometry_manager.cpp:702] [var_r_new] 0.0135506 | [var_a_new] 0.311578
+I0729 10:07:17.206645  5834 odometry_manager.h:77] [acce_norm] 0.0651183
+I0729 10:07:17.206647  5834 odometry_manager.h:95] [gyro_norm] 0.00321371
+I0729 10:07:17.206648  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.206650  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.206681  5834 se3_spline.h:669] [cur_idx] 31
+I0729 10:07:17.206682  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.206748  5834 msg_manager.h:94] [surf | corn | raw | max] 2.83 2.79183 2.83 2.83
+I0729 10:07:17.206754  5834 odometry_manager.cpp:289] Process 2 scans in [2.73, 2.83]
+I0729 10:07:17.207211  5834 trajectory_manager.cpp:260] [max_time_ns] 2830000000
+I0729 10:07:17.207214  5834 trajectory_manager.cpp:261] [numKnots aft extension] 32
+I0729 10:07:17.207216  5834 trajectory_manager.cpp:265] [last_bias_time] 2730000000 [cur_bias_time] 2830000000
+I0729 10:07:17.207723  5834 trajectory_manager.cpp:312] 28 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 5.626737e+03, Final cost: 3.624804e+03, Termination: CONVERGENCE
+I0729 10:07:17.207728  5834 trajectory_manager.cpp:313] 28 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.208381  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.208386  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.209827  5834 lidar_handler.cpp:775] point correspondence: 1085; corner/surfel 0/1085
+I0729 10:07:17.209908  5834 lidar_handler.cpp:183] point correspondence : 1085; point correspondence_ds : 543
+I0729 10:07:17.209910  5834 trajectory_manager.cpp:332] [point_corrs size] 543
+I0729 10:07:17.209913  5834 trajectory_manager.cpp:333] [opt_domain]: [2.73, 2.83)
+I0729 10:07:17.215728  5834 trajectory_manager.cpp:459] [t_opt] 5.28672
+I0729 10:07:17.215747  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.239262e+05, Final cost: 1.207907e+05, Termination: CONVERGENCE
+I0729 10:07:17.215750  5834 trajectory_manager.cpp:461] 55 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.215752  5834 trajectory_manager.cpp:468] [gyro_bias_new] 3.38201e-05 -4.15811e-06 -1.89485e-05
+I0729 10:07:17.215755  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.12923e-05 -0.00030878 -0.0013097
+I0729 10:07:17.216260  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.216264  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.217625  5834 lidar_handler.cpp:775] point correspondence: 1089; corner/surfel 0/1089
+I0729 10:07:17.217691  5834 lidar_handler.cpp:183] point correspondence : 1089; point correspondence_ds : 545
+I0729 10:07:17.217696  5834 trajectory_manager.cpp:332] [point_corrs size] 545
+I0729 10:07:17.217698  5834 trajectory_manager.cpp:333] [opt_domain]: [2.73, 2.83)
+I0729 10:07:17.222793  5834 trajectory_manager.cpp:459] [t_opt] 4.75068
+I0729 10:07:17.222810  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.062091e+05, Final cost: 1.044848e+05, Termination: CONVERGENCE
+I0729 10:07:17.222815  5834 trajectory_manager.cpp:461] 56 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.222815  5834 trajectory_manager.cpp:468] [gyro_bias_new] 3.38289e-05 -4.15704e-06 -1.89559e-05
+I0729 10:07:17.222818  5834 trajectory_manager.cpp:471] [acce_bias_new] 4.13719e-05 -0.000308872 -0.0013101
+I0729 10:07:17.238603  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2283
+I0729 10:07:17.278128  5834 marginalization_factor.cpp:290] marginalize costs 1.16052/0.02116/0.007333/0.031345/0.000724 = 1.22108 ms.
+I0729 10:07:17.293177  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0492504
+I0729 10:07:17.301623  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.301677  5834 odometry_manager.cpp:701] [aver_r_new] 0.00123429 | [aver_a_new] 9.73677
+I0729 10:07:17.301698  5834 odometry_manager.cpp:702] [var_r_new] 0.0135953 | [var_a_new] 0.354507
+I0729 10:07:17.301702  5834 odometry_manager.h:77] [acce_norm] 0.0732329
+I0729 10:07:17.301703  5834 odometry_manager.h:95] [gyro_norm] 0.00123429
+I0729 10:07:17.301704  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.301705  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.301708  5834 se3_spline.h:669] [cur_idx] 32
+I0729 10:07:17.301710  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.301890  5834 msg_manager.h:94] [surf | corn | raw | max] 2.93 2.89166 2.93 2.93
+I0729 10:07:17.301896  5834 odometry_manager.cpp:289] Process 2 scans in [2.83, 2.93]
+I0729 10:07:17.303020  5834 trajectory_manager.cpp:260] [max_time_ns] 2930000000
+I0729 10:07:17.303028  5834 trajectory_manager.cpp:261] [numKnots aft extension] 33
+I0729 10:07:17.303030  5834 trajectory_manager.cpp:265] [last_bias_time] 2830000000 [cur_bias_time] 2930000000
+I0729 10:07:17.303566  5834 trajectory_manager.cpp:312] 29 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.392847e+04, Final cost: 3.837847e+03, Termination: CONVERGENCE
+I0729 10:07:17.303573  5834 trajectory_manager.cpp:313] 29 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.304200  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.304203  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.305631  5834 lidar_handler.cpp:775] point correspondence: 1046; corner/surfel 0/1046
+I0729 10:07:17.305691  5834 lidar_handler.cpp:183] point correspondence : 1046; point correspondence_ds : 523
+I0729 10:07:17.305694  5834 trajectory_manager.cpp:332] [point_corrs size] 523
+I0729 10:07:17.305696  5834 trajectory_manager.cpp:333] [opt_domain]: [2.83, 2.93)
+I0729 10:07:17.317827  5834 trajectory_manager.cpp:459] [t_opt] 11.7843
+I0729 10:07:17.317847  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.082236e+05, Final cost: 1.041104e+05, Termination: NO_CONVERGENCE
+I0729 10:07:17.317850  5834 trajectory_manager.cpp:461] 57 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:17.317852  5834 trajectory_manager.cpp:468] [gyro_bias_new] 7.75107e-05 -1.65881e-05 -2.84803e-05
+I0729 10:07:17.317854  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.00031896 -0.000713889 -0.00274005
+I0729 10:07:17.318384  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.318389  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.319787  5834 lidar_handler.cpp:775] point correspondence: 1043; corner/surfel 0/1043
+I0729 10:07:17.319842  5834 lidar_handler.cpp:183] point correspondence : 1043; point correspondence_ds : 522
+I0729 10:07:17.319846  5834 trajectory_manager.cpp:332] [point_corrs size] 522
+I0729 10:07:17.319849  5834 trajectory_manager.cpp:333] [opt_domain]: [2.83, 2.93)
+I0729 10:07:17.324366  5834 trajectory_manager.cpp:459] [t_opt] 4.20829
+I0729 10:07:17.324375  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.032812e+05, Final cost: 1.028483e+05, Termination: CONVERGENCE
+I0729 10:07:17.324378  5834 trajectory_manager.cpp:461] 58 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.324379  5834 trajectory_manager.cpp:468] [gyro_bias_new] 7.75234e-05 -1.65901e-05 -2.8484e-05
+I0729 10:07:17.324383  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000319032 -0.000713987 -0.0027405
+I0729 10:07:17.340624  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2326
+I0729 10:07:17.380261  5834 marginalization_factor.cpp:290] marginalize costs 1.18981/0.019566/0.006863/0.030322/0.000718 = 1.24728 ms.
+I0729 10:07:17.393491  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0500534
+I0729 10:07:17.401675  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.401702  5834 odometry_manager.cpp:701] [aver_r_new] 0.00292372 | [aver_a_new] 9.74294
+I0729 10:07:17.401713  5834 odometry_manager.cpp:702] [var_r_new] 0.0132076 | [var_a_new] 0.307044
+I0729 10:07:17.401715  5834 odometry_manager.h:77] [acce_norm] 0.0670565
+I0729 10:07:17.401717  5834 odometry_manager.h:95] [gyro_norm] 0.00292372
+I0729 10:07:17.401719  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.401721  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.401722  5834 se3_spline.h:669] [cur_idx] 33
+I0729 10:07:17.401723  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.401794  5834 msg_manager.h:94] [surf | corn | raw | max] 3.03 2.99151 3.03 3.03
+I0729 10:07:17.401798  5834 odometry_manager.cpp:289] Process 2 scans in [2.93, 3.03]
+I0729 10:07:17.402536  5834 trajectory_manager.cpp:260] [max_time_ns] 3030000000
+I0729 10:07:17.402542  5834 trajectory_manager.cpp:261] [numKnots aft extension] 34
+I0729 10:07:17.402544  5834 trajectory_manager.cpp:265] [last_bias_time] 2930000000 [cur_bias_time] 3030000000
+I0729 10:07:17.403050  5834 trajectory_manager.cpp:312] 30 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.854381e+03, Final cost: 3.363654e+03, Termination: CONVERGENCE
+I0729 10:07:17.403055  5834 trajectory_manager.cpp:313] 30 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.403692  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.403697  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.405040  5834 lidar_handler.cpp:775] point correspondence: 1055; corner/surfel 0/1055
+I0729 10:07:17.405097  5834 lidar_handler.cpp:183] point correspondence : 1055; point correspondence_ds : 528
+I0729 10:07:17.405099  5834 trajectory_manager.cpp:332] [point_corrs size] 528
+I0729 10:07:17.405100  5834 trajectory_manager.cpp:333] [opt_domain]: [2.93, 3.03)
+I0729 10:07:17.417305  5834 trajectory_manager.cpp:459] [t_opt] 11.8837
+I0729 10:07:17.417325  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.260841e+05, Final cost: 1.244268e+05, Termination: NO_CONVERGENCE
+I0729 10:07:17.417330  5834 trajectory_manager.cpp:461] 59 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:17.417331  5834 trajectory_manager.cpp:468] [gyro_bias_new] 9.88869e-05 -2.41351e-05 -3.46032e-05
+I0729 10:07:17.417335  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000426539 -0.00111616 -0.00412216
+I0729 10:07:17.417815  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.417817  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.419332  5834 lidar_handler.cpp:775] point correspondence: 1056; corner/surfel 0/1056
+I0729 10:07:17.419391  5834 lidar_handler.cpp:183] point correspondence : 1056; point correspondence_ds : 528
+I0729 10:07:17.419395  5834 trajectory_manager.cpp:332] [point_corrs size] 528
+I0729 10:07:17.419397  5834 trajectory_manager.cpp:333] [opt_domain]: [2.93, 3.03)
+I0729 10:07:17.423503  5834 trajectory_manager.cpp:459] [t_opt] 3.81043
+I0729 10:07:17.423512  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.186686e+05, Final cost: 1.184980e+05, Termination: CONVERGENCE
+I0729 10:07:17.423516  5834 trajectory_manager.cpp:461] 60 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.423517  5834 trajectory_manager.cpp:468] [gyro_bias_new] 9.88934e-05 -2.41375e-05 -3.46067e-05
+I0729 10:07:17.423520  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000426568 -0.00111628 -0.00412257
+I0729 10:07:17.439337  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2334
+I0729 10:07:17.484588  5834 marginalization_factor.cpp:290] marginalize costs 2.03869/0.021078/0.007353/0.030862/0.000787 = 2.09877 ms.
+I0729 10:07:17.500268  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0492356
+I0729 10:07:17.515897  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.515923  5834 odometry_manager.cpp:701] [aver_r_new] 0.000755455 | [aver_a_new] 9.73474
+I0729 10:07:17.515934  5834 odometry_manager.cpp:702] [var_r_new] 0.0140304 | [var_a_new] 0.359866
+I0729 10:07:17.515936  5834 odometry_manager.h:77] [acce_norm] 0.0752611
+I0729 10:07:17.515938  5834 odometry_manager.h:95] [gyro_norm] 0.000755455
+I0729 10:07:17.515939  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.515941  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.515942  5834 se3_spline.h:669] [cur_idx] 34
+I0729 10:07:17.515944  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.516034  5834 msg_manager.h:94] [surf | corn | raw | max] 3.12988 3.09135 3.12988 3.13
+I0729 10:07:17.516041  5834 odometry_manager.cpp:289] Process 2 scans in [3.03, 3.13]
+I0729 10:07:17.516502  5834 trajectory_manager.cpp:260] [max_time_ns] 3130000000
+I0729 10:07:17.516531  5834 trajectory_manager.cpp:261] [numKnots aft extension] 35
+I0729 10:07:17.516533  5834 trajectory_manager.cpp:265] [last_bias_time] 3030000000 [cur_bias_time] 3130000000
+I0729 10:07:17.517004  5834 trajectory_manager.cpp:312] 31 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.300924e+03, Final cost: 3.795643e+03, Termination: CONVERGENCE
+I0729 10:07:17.517009  5834 trajectory_manager.cpp:313] 31 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.517613  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.517616  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.518980  5834 lidar_handler.cpp:775] point correspondence: 1021; corner/surfel 0/1021
+I0729 10:07:17.519032  5834 lidar_handler.cpp:183] point correspondence : 1021; point correspondence_ds : 511
+I0729 10:07:17.519033  5834 trajectory_manager.cpp:332] [point_corrs size] 511
+I0729 10:07:17.519034  5834 trajectory_manager.cpp:333] [opt_domain]: [3.03, 3.13)
+I0729 10:07:17.523331  5834 trajectory_manager.cpp:459] [t_opt] 3.96171
+I0729 10:07:17.523340  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 9.191048e+04, Final cost: 9.113055e+04, Termination: CONVERGENCE
+I0729 10:07:17.523344  5834 trajectory_manager.cpp:461] 61 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.523345  5834 trajectory_manager.cpp:468] [gyro_bias_new] 9.89064e-05 -2.4135e-05 -3.46107e-05
+I0729 10:07:17.523348  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000426602 -0.00111638 -0.00412299
+I0729 10:07:17.523808  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.523809  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.525223  5834 lidar_handler.cpp:775] point correspondence: 1021; corner/surfel 0/1021
+I0729 10:07:17.525279  5834 lidar_handler.cpp:183] point correspondence : 1021; point correspondence_ds : 511
+I0729 10:07:17.525300  5834 trajectory_manager.cpp:332] [point_corrs size] 511
+I0729 10:07:17.525301  5834 trajectory_manager.cpp:333] [opt_domain]: [3.03, 3.13)
+I0729 10:07:17.529335  5834 trajectory_manager.cpp:459] [t_opt] 3.73708
+I0729 10:07:17.529343  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 9.723822e+04, Final cost: 9.720534e+04, Termination: CONVERGENCE
+I0729 10:07:17.529346  5834 trajectory_manager.cpp:461] 62 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.529347  5834 trajectory_manager.cpp:468] [gyro_bias_new] 9.89201e-05 -2.41326e-05 -3.46145e-05
+I0729 10:07:17.529350  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.00042664 -0.00111649 -0.0041234
+I0729 10:07:17.545483  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2297
+I0729 10:07:17.599507  5834 marginalization_factor.cpp:290] marginalize costs 7.89434/0.025509/0.006247/0.039523/0.000798 = 7.96641 ms.
+I0729 10:07:17.607652  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0512354
+I0729 10:07:17.621786  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.621811  5834 odometry_manager.cpp:701] [aver_r_new] 0.0027021 | [aver_a_new] 9.73924
+I0729 10:07:17.621821  5834 odometry_manager.cpp:702] [var_r_new] 0.013606 | [var_a_new] 0.334966
+I0729 10:07:17.621824  5834 odometry_manager.h:77] [acce_norm] 0.0707619
+I0729 10:07:17.621825  5834 odometry_manager.h:95] [gyro_norm] 0.0027021
+I0729 10:07:17.621827  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.621829  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.621829  5834 se3_spline.h:669] [cur_idx] 35
+I0729 10:07:17.621834  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.621894  5834 msg_manager.h:94] [surf | corn | raw | max] 3.23 3.19199 3.23 3.23
+I0729 10:07:17.621898  5834 odometry_manager.cpp:289] Process 2 scans in [3.13, 3.23]
+I0729 10:07:17.622362  5834 trajectory_manager.cpp:260] [max_time_ns] 3230000000
+I0729 10:07:17.622366  5834 trajectory_manager.cpp:261] [numKnots aft extension] 36
+I0729 10:07:17.622367  5834 trajectory_manager.cpp:265] [last_bias_time] 3130000000 [cur_bias_time] 3230000000
+I0729 10:07:17.622886  5834 trajectory_manager.cpp:312] 32 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 8.288888e+03, Final cost: 3.468961e+03, Termination: CONVERGENCE
+I0729 10:07:17.622891  5834 trajectory_manager.cpp:313] 32 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.623456  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.623458  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.624801  5834 lidar_handler.cpp:775] point correspondence: 1018; corner/surfel 0/1018
+I0729 10:07:17.624852  5834 lidar_handler.cpp:183] point correspondence : 1018; point correspondence_ds : 509
+I0729 10:07:17.624854  5834 trajectory_manager.cpp:332] [point_corrs size] 509
+I0729 10:07:17.624855  5834 trajectory_manager.cpp:333] [opt_domain]: [3.13, 3.23)
+I0729 10:07:17.629091  5834 trajectory_manager.cpp:459] [t_opt] 3.90121
+I0729 10:07:17.629103  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.033928e+05, Final cost: 1.028807e+05, Termination: CONVERGENCE
+I0729 10:07:17.629107  5834 trajectory_manager.cpp:461] 63 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.629109  5834 trajectory_manager.cpp:468] [gyro_bias_new] 9.89305e-05 -2.41322e-05 -3.46205e-05
+I0729 10:07:17.629112  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000426646 -0.00111658 -0.00412385
+I0729 10:07:17.629607  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.629611  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.630990  5834 lidar_handler.cpp:775] point correspondence: 1017; corner/surfel 0/1017
+I0729 10:07:17.631047  5834 lidar_handler.cpp:183] point correspondence : 1017; point correspondence_ds : 509
+I0729 10:07:17.631050  5834 trajectory_manager.cpp:332] [point_corrs size] 509
+I0729 10:07:17.631052  5834 trajectory_manager.cpp:333] [opt_domain]: [3.13, 3.23)
+I0729 10:07:17.643826  5834 trajectory_manager.cpp:459] [t_opt] 12.3793
+I0729 10:07:17.643846  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 8.308459e+04, Final cost: 8.213118e+04, Termination: NO_CONVERGENCE
+I0729 10:07:17.643849  5834 trajectory_manager.cpp:461] 64 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:17.643851  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000140629 -2.67814e-05 -5.68028e-05
+I0729 10:07:17.643854  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000489666 -0.00148039 -0.00566413
+I0729 10:07:17.659523  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2289
+I0729 10:07:17.694360  5834 marginalization_factor.cpp:290] marginalize costs 1.15821/0.043304/0.006458/0.035628/0.000989 = 1.24459 ms.
+I0729 10:07:17.708959  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0495307
+I0729 10:07:17.717021  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.717046  5834 odometry_manager.cpp:701] [aver_r_new] 0.00401142 | [aver_a_new] 9.76196
+I0729 10:07:17.717056  5834 odometry_manager.cpp:702] [var_r_new] 0.0368504 | [var_a_new] 0.428882
+I0729 10:07:17.717058  5834 odometry_manager.h:77] [acce_norm] 0.0480413
+I0729 10:07:17.717060  5834 odometry_manager.h:95] [gyro_norm] 0.00401142
+I0729 10:07:17.717061  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.717063  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.717064  5834 se3_spline.h:669] [cur_idx] 36
+I0729 10:07:17.717067  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.717164  5834 msg_manager.h:94] [surf | corn | raw | max] 3.33 3.29183 3.33 3.33
+I0729 10:07:17.717168  5834 odometry_manager.cpp:289] Process 2 scans in [3.23, 3.33]
+I0729 10:07:17.717675  5834 trajectory_manager.cpp:260] [max_time_ns] 3330000000
+I0729 10:07:17.717682  5834 trajectory_manager.cpp:261] [numKnots aft extension] 37
+I0729 10:07:17.717684  5834 trajectory_manager.cpp:265] [last_bias_time] 3230000000 [cur_bias_time] 3330000000
+I0729 10:07:17.718302  5834 trajectory_manager.cpp:312] 33 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 7.638442e+03, Final cost: 4.148306e+03, Termination: CONVERGENCE
+I0729 10:07:17.718362  5834 trajectory_manager.cpp:313] 33 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.719151  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.719156  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.720703  5834 lidar_handler.cpp:775] point correspondence: 1058; corner/surfel 0/1058
+I0729 10:07:17.720780  5834 lidar_handler.cpp:183] point correspondence : 1058; point correspondence_ds : 529
+I0729 10:07:17.720784  5834 trajectory_manager.cpp:332] [point_corrs size] 529
+I0729 10:07:17.720788  5834 trajectory_manager.cpp:333] [opt_domain]: [3.23, 3.33)
+I0729 10:07:17.725225  5834 trajectory_manager.cpp:459] [t_opt] 4.09735
+I0729 10:07:17.725242  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.371152e+05, Final cost: 1.355688e+05, Termination: CONVERGENCE
+I0729 10:07:17.725246  5834 trajectory_manager.cpp:461] 65 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.725248  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000140641 -2.67806e-05 -5.68085e-05
+I0729 10:07:17.725251  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000489682 -0.0014805 -0.00566459
+I0729 10:07:17.725721  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.725723  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.727079  5834 lidar_handler.cpp:775] point correspondence: 1059; corner/surfel 0/1059
+I0729 10:07:17.727141  5834 lidar_handler.cpp:183] point correspondence : 1059; point correspondence_ds : 530
+I0729 10:07:17.727147  5834 trajectory_manager.cpp:332] [point_corrs size] 530
+I0729 10:07:17.727159  5834 trajectory_manager.cpp:333] [opt_domain]: [3.23, 3.33)
+I0729 10:07:17.732190  5834 trajectory_manager.cpp:459] [t_opt] 4.64905
+I0729 10:07:17.732206  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.200085e+05, Final cost: 1.187065e+05, Termination: CONVERGENCE
+I0729 10:07:17.732209  5834 trajectory_manager.cpp:461] 66 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.732221  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000140656 -2.67796e-05 -5.68123e-05
+I0729 10:07:17.732224  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000489732 -0.00148064 -0.00566504
+I0729 10:07:17.748669  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2293
+I0729 10:07:17.784703  5834 marginalization_factor.cpp:290] marginalize costs 2.17128/0.020497/0.00705/0.031465/0.000785 = 2.23107 ms.
+I0729 10:07:17.798650  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0511243
+I0729 10:07:17.805832  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.805855  5834 odometry_manager.cpp:701] [aver_r_new] 0.00171846 | [aver_a_new] 9.74056
+I0729 10:07:17.805866  5834 odometry_manager.cpp:702] [var_r_new] 0.0136649 | [var_a_new] 0.331588
+I0729 10:07:17.805867  5834 odometry_manager.h:77] [acce_norm] 0.069436
+I0729 10:07:17.805868  5834 odometry_manager.h:95] [gyro_norm] 0.00171846
+I0729 10:07:17.805871  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.805871  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.805872  5834 se3_spline.h:669] [cur_idx] 37
+I0729 10:07:17.805874  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.805944  5834 msg_manager.h:94] [surf | corn | raw | max] 3.42999 3.39167 3.42999 3.43
+I0729 10:07:17.805948  5834 odometry_manager.cpp:289] Process 2 scans in [3.33, 3.43]
+I0729 10:07:17.806432  5834 trajectory_manager.cpp:260] [max_time_ns] 3430000000
+I0729 10:07:17.806433  5834 trajectory_manager.cpp:261] [numKnots aft extension] 38
+I0729 10:07:17.806434  5834 trajectory_manager.cpp:265] [last_bias_time] 3330000000 [cur_bias_time] 3430000000
+I0729 10:07:17.806921  5834 trajectory_manager.cpp:312] 34 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.932234e+03, Final cost: 3.741091e+03, Termination: CONVERGENCE
+I0729 10:07:17.806929  5834 trajectory_manager.cpp:313] 34 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.807580  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.807583  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.808890  5834 lidar_handler.cpp:775] point correspondence: 1032; corner/surfel 0/1032
+I0729 10:07:17.808946  5834 lidar_handler.cpp:183] point correspondence : 1032; point correspondence_ds : 516
+I0729 10:07:17.808949  5834 trajectory_manager.cpp:332] [point_corrs size] 516
+I0729 10:07:17.808950  5834 trajectory_manager.cpp:333] [opt_domain]: [3.33, 3.43)
+I0729 10:07:17.823216  5834 trajectory_manager.cpp:459] [t_opt] 13.9347
+I0729 10:07:17.823235  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 9.117968e+04, Final cost: 9.011655e+04, Termination: NO_CONVERGENCE
+I0729 10:07:17.823238  5834 trajectory_manager.cpp:461] 67 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:17.823240  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000190357 -2.8049e-05 -7.29722e-05
+I0729 10:07:17.823243  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000473973 -0.00186381 -0.00721338
+I0729 10:07:17.823742  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.823745  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.825047  5834 lidar_handler.cpp:775] point correspondence: 1032; corner/surfel 0/1032
+I0729 10:07:17.825100  5834 lidar_handler.cpp:183] point correspondence : 1032; point correspondence_ds : 516
+I0729 10:07:17.825103  5834 trajectory_manager.cpp:332] [point_corrs size] 516
+I0729 10:07:17.825104  5834 trajectory_manager.cpp:333] [opt_domain]: [3.33, 3.43)
+I0729 10:07:17.829367  5834 trajectory_manager.cpp:459] [t_opt] 3.91231
+I0729 10:07:17.829377  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 8.979666e+04, Final cost: 8.978923e+04, Termination: CONVERGENCE
+I0729 10:07:17.829380  5834 trajectory_manager.cpp:461] 68 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.829382  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000190372 -2.80494e-05 -7.29771e-05
+I0729 10:07:17.829384  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000473964 -0.00186392 -0.00721385
+I0729 10:07:17.847151  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2277
+I0729 10:07:17.884711  5834 marginalization_factor.cpp:290] marginalize costs 0.672075/0.0185/0.006568/0.043835/0.000723 = 0.741701 ms.
+I0729 10:07:17.897861  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0490289
+I0729 10:07:17.913095  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:17.913126  5834 odometry_manager.cpp:701] [aver_r_new] 0.00644177 | [aver_a_new] 9.73219
+I0729 10:07:17.913151  5834 odometry_manager.cpp:702] [var_r_new] 0.0165339 | [var_a_new] 0.311792
+I0729 10:07:17.913153  5834 odometry_manager.h:77] [acce_norm] 0.0778053
+I0729 10:07:17.913156  5834 odometry_manager.h:95] [gyro_norm] 0.00644177
+I0729 10:07:17.913156  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:17.913158  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:17.913159  5834 se3_spline.h:669] [cur_idx] 38
+I0729 10:07:17.913161  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:17.913244  5834 msg_manager.h:94] [surf | corn | raw | max] 3.52898 3.49151 3.52898 3.53
+I0729 10:07:17.913261  5834 odometry_manager.cpp:289] Process 2 scans in [3.43, 3.53]
+I0729 10:07:17.913822  5834 trajectory_manager.cpp:260] [max_time_ns] 3530000000
+I0729 10:07:17.913825  5834 trajectory_manager.cpp:261] [numKnots aft extension] 39
+I0729 10:07:17.913827  5834 trajectory_manager.cpp:265] [last_bias_time] 3430000000 [cur_bias_time] 3530000000
+I0729 10:07:17.914393  5834 trajectory_manager.cpp:312] 35 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 7.805619e+03, Final cost: 4.922191e+03, Termination: CONVERGENCE
+I0729 10:07:17.914399  5834 trajectory_manager.cpp:313] 35 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:17.915069  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.915076  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.916518  5834 lidar_handler.cpp:775] point correspondence: 1062; corner/surfel 0/1062
+I0729 10:07:17.916579  5834 lidar_handler.cpp:183] point correspondence : 1062; point correspondence_ds : 531
+I0729 10:07:17.916581  5834 trajectory_manager.cpp:332] [point_corrs size] 531
+I0729 10:07:17.916582  5834 trajectory_manager.cpp:333] [opt_domain]: [3.43, 3.53)
+I0729 10:07:17.928869  5834 trajectory_manager.cpp:459] [t_opt] 11.9405
+I0729 10:07:17.928887  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.350228e+05, Final cost: 1.312102e+05, Termination: NO_CONVERGENCE
+I0729 10:07:17.928891  5834 trajectory_manager.cpp:461] 69 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:17.928893  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000235597 -2.87382e-05 -8.61888e-05
+I0729 10:07:17.928896  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000570834 -0.00238878 -0.00863489
+I0729 10:07:17.929411  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:17.929419  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:17.931088  5834 lidar_handler.cpp:775] point correspondence: 1062; corner/surfel 0/1062
+I0729 10:07:17.931198  5834 lidar_handler.cpp:183] point correspondence : 1062; point correspondence_ds : 531
+I0729 10:07:17.931205  5834 trajectory_manager.cpp:332] [point_corrs size] 531
+I0729 10:07:17.931210  5834 trajectory_manager.cpp:333] [opt_domain]: [3.43, 3.53)
+I0729 10:07:17.936079  5834 trajectory_manager.cpp:459] [t_opt] 4.35701
+I0729 10:07:17.936095  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.178551e+05, Final cost: 1.174097e+05, Termination: CONVERGENCE
+I0729 10:07:17.936098  5834 trajectory_manager.cpp:461] 70 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:17.936100  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000235612 -2.87389e-05 -8.61938e-05
+I0729 10:07:17.936103  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000570837 -0.00238891 -0.00863533
+I0729 10:07:17.954483  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2252
+I0729 10:07:17.988076  5834 marginalization_factor.cpp:290] marginalize costs 1.15417/0.029357/0.006975/0.031592/0.000736 = 1.22283 ms.
+I0729 10:07:18.001706  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0490637
+I0729 10:07:18.010078  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:18.010118  5834 odometry_manager.cpp:701] [aver_r_new] 0.0121924 | [aver_a_new] 9.76902
+I0729 10:07:18.010128  5834 odometry_manager.cpp:702] [var_r_new] 0.0408321 | [var_a_new] 0.398124
+I0729 10:07:18.010129  5834 odometry_manager.h:77] [acce_norm] 0.0409846
+I0729 10:07:18.010131  5834 odometry_manager.h:95] [gyro_norm] 0.0121924
+I0729 10:07:18.010133  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:18.010133  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:18.010135  5834 se3_spline.h:669] [cur_idx] 39
+I0729 10:07:18.010138  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:18.010202  5834 msg_manager.h:94] [surf | corn | raw | max] 3.62764 3.59134 3.62764 3.63
+I0729 10:07:18.010206  5834 odometry_manager.cpp:289] Process 2 scans in [3.53, 3.63]
+I0729 10:07:18.010739  5834 trajectory_manager.cpp:260] [max_time_ns] 3630000000
+I0729 10:07:18.010746  5834 trajectory_manager.cpp:261] [numKnots aft extension] 40
+I0729 10:07:18.010747  5834 trajectory_manager.cpp:265] [last_bias_time] 3530000000 [cur_bias_time] 3630000000
+I0729 10:07:18.012493  5834 trajectory_manager.cpp:312] 36 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 3.376542e+04, Final cost: 4.948235e+03, Termination: CONVERGENCE
+I0729 10:07:18.012504  5834 trajectory_manager.cpp:313] 36 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:18.013418  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:18.013422  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:18.014856  5834 lidar_handler.cpp:775] point correspondence: 1064; corner/surfel 0/1064
+I0729 10:07:18.014918  5834 lidar_handler.cpp:183] point correspondence : 1064; point correspondence_ds : 532
+I0729 10:07:18.014952  5834 trajectory_manager.cpp:332] [point_corrs size] 532
+I0729 10:07:18.014954  5834 trajectory_manager.cpp:333] [opt_domain]: [3.53, 3.63)
+I0729 10:07:18.027374  5834 trajectory_manager.cpp:459] [t_opt] 12.0865
+I0729 10:07:18.027393  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.013016e+05, Final cost: 1.001956e+05, Termination: NO_CONVERGENCE
+I0729 10:07:18.027397  5834 trajectory_manager.cpp:461] 71 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:18.027398  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000275071 -3.85065e-05 -9.92043e-05
+I0729 10:07:18.027402  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.00049327 -0.00282831 -0.0102777
+I0729 10:07:18.027942  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:18.027947  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:18.029441  5834 lidar_handler.cpp:775] point correspondence: 1063; corner/surfel 0/1063
+I0729 10:07:18.029506  5834 lidar_handler.cpp:183] point correspondence : 1063; point correspondence_ds : 532
+I0729 10:07:18.029511  5834 trajectory_manager.cpp:332] [point_corrs size] 532
+I0729 10:07:18.029513  5834 trajectory_manager.cpp:333] [opt_domain]: [3.53, 3.63)
+I0729 10:07:18.041534  5834 trajectory_manager.cpp:459] [t_opt] 11.6785
+I0729 10:07:18.041553  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.043073e+05, Final cost: 1.037299e+05, Termination: NO_CONVERGENCE
+I0729 10:07:18.041556  5834 trajectory_manager.cpp:461] 72 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:18.041558  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000322004 -4.88276e-05 -0.000121328
+I0729 10:07:18.041563  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000393991 -0.00323471 -0.0118813
+I0729 10:07:18.057485  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2285
+I0729 10:07:18.106021  5834 marginalization_factor.cpp:290] marginalize costs 1.32716/0.023686/0.021851/0.029407/0.000702 = 1.4028 ms.
+I0729 10:07:18.120138  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0501733
+I0729 10:07:18.128254  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:18.128283  5834 odometry_manager.cpp:701] [aver_r_new] 0.0200161 | [aver_a_new] 9.72649
+I0729 10:07:18.128294  5834 odometry_manager.cpp:702] [var_r_new] 0.0273781 | [var_a_new] 0.576932
+I0729 10:07:18.128296  5834 odometry_manager.h:77] [acce_norm] 0.0835147
+I0729 10:07:18.128298  5834 odometry_manager.h:95] [gyro_norm] 0.0200161
+I0729 10:07:18.128299  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:18.128300  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:18.128302  5834 se3_spline.h:669] [cur_idx] 40
+I0729 10:07:18.128304  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:18.128394  5834 msg_manager.h:94] [surf | corn | raw | max] 3.72619 3.692 3.72619 3.73
+I0729 10:07:18.128399  5834 odometry_manager.cpp:289] Process 2 scans in [3.63, 3.73]
+I0729 10:07:18.128856  5834 trajectory_manager.cpp:260] [max_time_ns] 3730000000
+I0729 10:07:18.128860  5834 trajectory_manager.cpp:261] [numKnots aft extension] 41
+I0729 10:07:18.128861  5834 trajectory_manager.cpp:265] [last_bias_time] 3630000000 [cur_bias_time] 3730000000
+I0729 10:07:18.129458  5834 trajectory_manager.cpp:312] 37 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 5.669163e+03, Final cost: 3.500257e+03, Termination: CONVERGENCE
+I0729 10:07:18.129468  5834 trajectory_manager.cpp:313] 37 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:18.130123  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:18.130128  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:18.131585  5834 lidar_handler.cpp:775] point correspondence: 1049; corner/surfel 0/1049
+I0729 10:07:18.131646  5834 lidar_handler.cpp:183] point correspondence : 1049; point correspondence_ds : 525
+I0729 10:07:18.131649  5834 trajectory_manager.cpp:332] [point_corrs size] 525
+I0729 10:07:18.131651  5834 trajectory_manager.cpp:333] [opt_domain]: [3.63, 3.73)
+I0729 10:07:18.144349  5834 trajectory_manager.cpp:459] [t_opt] 12.2788
+I0729 10:07:18.144367  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.090528e+05, Final cost: 1.082187e+05, Termination: NO_CONVERGENCE
+I0729 10:07:18.144371  5834 trajectory_manager.cpp:461] 73 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:18.144372  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000352507 -4.91201e-05 -0.000134554
+I0729 10:07:18.144376  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000305917 -0.0035887 -0.0134031
+I0729 10:07:18.144887  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:18.144891  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:18.146456  5834 lidar_handler.cpp:775] point correspondence: 1049; corner/surfel 0/1049
+I0729 10:07:18.146543  5834 lidar_handler.cpp:183] point correspondence : 1049; point correspondence_ds : 525
+I0729 10:07:18.146549  5834 trajectory_manager.cpp:332] [point_corrs size] 525
+I0729 10:07:18.146550  5834 trajectory_manager.cpp:333] [opt_domain]: [3.63, 3.73)
+I0729 10:07:18.150749  5834 trajectory_manager.cpp:459] [t_opt] 3.9014
+I0729 10:07:18.150758  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 2, Initial cost: 1.147903e+05, Final cost: 1.145975e+05, Termination: CONVERGENCE
+I0729 10:07:18.150761  5834 trajectory_manager.cpp:461] 74 UpdateLio Successful/Unsuccessful steps: 2/0
+I0729 10:07:18.150763  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000352517 -4.91188e-05 -0.000134558
+I0729 10:07:18.150766  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000305894 -0.0035888 -0.0134035
+I0729 10:07:18.168076  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2225
+I0729 10:07:18.206139  5834 marginalization_factor.cpp:290] marginalize costs 0.883727/0.01881/0.006449/0.031219/0.000721 = 0.940926 ms.
+I0729 10:07:18.220654  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0492029
+I0729 10:07:18.238533  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:18.238561  5834 odometry_manager.cpp:701] [aver_r_new] 0.00361562 | [aver_a_new] 9.72428
+I0729 10:07:18.238572  5834 odometry_manager.cpp:702] [var_r_new] 0.0345954 | [var_a_new] 0.354211
+I0729 10:07:18.238574  5834 odometry_manager.h:77] [acce_norm] 0.0857151
+I0729 10:07:18.238576  5834 odometry_manager.h:95] [gyro_norm] 0.00361562
+I0729 10:07:18.238577  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:18.238579  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:18.238580  5834 se3_spline.h:669] [cur_idx] 41
+I0729 10:07:18.238582  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:18.238647  5834 msg_manager.h:94] [surf | corn | raw | max] 3.83 3.79184 3.83 3.83
+I0729 10:07:18.238651  5834 odometry_manager.cpp:289] Process 2 scans in [3.73, 3.83]
+I0729 10:07:18.239121  5834 trajectory_manager.cpp:260] [max_time_ns] 3830000000
+I0729 10:07:18.239125  5834 trajectory_manager.cpp:261] [numKnots aft extension] 42
+I0729 10:07:18.239125  5834 trajectory_manager.cpp:265] [last_bias_time] 3730000000 [cur_bias_time] 3830000000
+I0729 10:07:18.239607  5834 trajectory_manager.cpp:312] 38 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 1.067276e+04, Final cost: 4.493902e+03, Termination: CONVERGENCE
+I0729 10:07:18.239614  5834 trajectory_manager.cpp:313] 38 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:18.240337  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:18.240343  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:18.241792  5834 lidar_handler.cpp:775] point correspondence: 1077; corner/surfel 0/1077
+I0729 10:07:18.241853  5834 lidar_handler.cpp:183] point correspondence : 1077; point correspondence_ds : 539
+I0729 10:07:18.241859  5834 trajectory_manager.cpp:332] [point_corrs size] 539
+I0729 10:07:18.241863  5834 trajectory_manager.cpp:333] [opt_domain]: [3.73, 3.83)
+I0729 10:07:18.254676  5834 trajectory_manager.cpp:459] [t_opt] 12.4335
+I0729 10:07:18.254695  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.435414e+05, Final cost: 1.400215e+05, Termination: NO_CONVERGENCE
+I0729 10:07:18.254729  5834 trajectory_manager.cpp:461] 75 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:18.254731  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000408527 -4.57565e-05 -0.000143069
+I0729 10:07:18.254735  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000353798 -0.00393308 -0.0149151
+I0729 10:07:18.255216  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:18.255220  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:18.256671  5834 lidar_handler.cpp:775] point correspondence: 1077; corner/surfel 0/1077
+I0729 10:07:18.256754  5834 lidar_handler.cpp:183] point correspondence : 1077; point correspondence_ds : 539
+I0729 10:07:18.256760  5834 trajectory_manager.cpp:332] [point_corrs size] 539
+I0729 10:07:18.256762  5834 trajectory_manager.cpp:333] [opt_domain]: [3.73, 3.83)
+I0729 10:07:18.269353  5834 trajectory_manager.cpp:459] [t_opt] 12.2185
+I0729 10:07:18.269371  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.670023e+05, Final cost: 1.656012e+05, Termination: NO_CONVERGENCE
+I0729 10:07:18.269373  5834 trajectory_manager.cpp:461] 76 UpdateLio Successful/Unsuccessful steps: 9/0
+I0729 10:07:18.269374  5834 trajectory_manager.cpp:468] [gyro_bias_new] 0.000442972 -3.69634e-05 -0.000156835
+I0729 10:07:18.269378  5834 trajectory_manager.cpp:471] [acce_bias_new] 0.000473466 -0.00437416 -0.016343
+I0729 10:07:18.279704  5834 pointcloud_rgbd.cpp:467] [m_voxels_recent_visited size] 2276
+I0729 10:07:18.318897  5834 marginalization_factor.cpp:290] marginalize costs 1.20662/0.027694/0.006817/0.047466/0.000746 = 1.28935 ms.
+I0729 10:07:18.326776  5834 msg_manager.h:248] [CheckLidarMsgTimestamp] Delta Time : 0.0510058
+I0729 10:07:18.378691  5834 msg_manager.cpp:513] [msgs_scan_num] 2
+I0729 10:07:18.378719  5834 odometry_manager.cpp:701] [aver_r_new] 0.0176693 | [aver_a_new] 9.81162
+I0729 10:07:18.378731  5834 odometry_manager.cpp:702] [var_r_new] 0.0208142 | [var_a_new] 0.252077
+I0729 10:07:18.378733  5834 odometry_manager.h:77] [acce_norm] 0.00162232
+I0729 10:07:18.378736  5834 odometry_manager.h:95] [gyro_norm] 0.0176693
+I0729 10:07:18.378736  5834 odometry_manager.cpp:708] [cp_add_num_new] 1
+I0729 10:07:18.378738  5834 odometry_manager.cpp:712] [extend_step_new] 100000000
+I0729 10:07:18.378739  5834 se3_spline.h:669] [cur_idx] 42
+I0729 10:07:18.378741  5834 msg_manager.cpp:239] imu/lidar/image msg left: 0/1/0
+I0729 10:07:18.378804  5834 msg_manager.h:94] [surf | corn | raw | max] 3.93 3.89168 3.93 3.93
+I0729 10:07:18.378808  5834 odometry_manager.cpp:289] Process 2 scans in [3.83, 3.93]
+I0729 10:07:18.379272  5834 trajectory_manager.cpp:260] [max_time_ns] 3930000000
+I0729 10:07:18.379276  5834 trajectory_manager.cpp:261] [numKnots aft extension] 43
+I0729 10:07:18.379277  5834 trajectory_manager.cpp:265] [last_bias_time] 3830000000 [cur_bias_time] 3930000000
+I0729 10:07:18.379781  5834 trajectory_manager.cpp:312] 39 TrajInitSolver Ceres Solver Report: Iterations: 3, Initial cost: 6.224829e+04, Final cost: 8.975860e+03, Termination: CONVERGENCE
+I0729 10:07:18.379787  5834 trajectory_manager.cpp:313] 39 TrajInit Successful/Unsuccessful steps: 3/0
+I0729 10:07:18.380414  5834 lidar_handler.cpp:546] [corner_step] 1
+I0729 10:07:18.380419  5834 lidar_handler.cpp:675] [surf_step] 1
+I0729 10:07:18.381795  5834 lidar_handler.cpp:775] point correspondence: 1068; corner/surfel 0/1068
+I0729 10:07:18.381855  5834 lidar_handler.cpp:183] point correspondence : 1068; point correspondence_ds : 534
+I0729 10:07:18.381857  5834 trajectory_manager.cpp:332] [point_corrs size] 534
+I0729 10:07:18.381858  5834 trajectory_manager.cpp:333] [opt_domain]: [3.83, 3.93)
+I0729 10:07:18.393749  5834 trajectory_manager.cpp:459] [t_opt] 11.5505
+I0729 10:07:18.393762  5834 trajectory_manager.cpp:460] LoamSolver Ceres Solver Report: Iterations: 9, Initial cost: 1.173951e+05, Final cost: 1.138958e+05, Terminati
