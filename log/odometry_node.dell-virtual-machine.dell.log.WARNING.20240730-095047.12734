@@ -1,0 +1,4 @@
+Log file created at: 2024/07/30 09:50:47
+Running on machine: dell-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0730 09:50:47.355939 12734 parameter_struct.h:117] [ExtrinsicParam::Init] input yaml node has not parameters of Extrinsics struct. Return without Initialziation.
